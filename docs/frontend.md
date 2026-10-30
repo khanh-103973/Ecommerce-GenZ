@@ -2,6 +2,12 @@
 
 Frontend nằm trong GenZFashion.Web, dùng React, React Router, Vite và CSS responsive. API và SQL Server hiện có là nguồn dữ liệu thật. Không cần Swagger để thao tác mua hàng hoặc quản trị.
 
+## Cập nhật điều hướng và form
+
+Khi mở trang cần đăng nhập hoặc tải lại giỏ/đơn/trang admin, đăng nhập xong sẽ quay về route đó nếu tài khoản có quyền. Nếu đăng nhập bằng vai trò khác, ứng dụng về trang mặc định phù hợp. Token vẫn chỉ giữ trong bộ nhớ, không lưu vào trình duyệt.
+
+Form thêm danh mục/thương hiệu xóa ô tên sau khi lưu thành công. Kiểm thử điều hướng chạy bằng `npm test` trong thư mục `GenZFashion.Web` (Node test runner, không cần cài thêm gói). Xem [phạm vi kiểm chứng giao diện](local-verification.md).
+
 ## Chạy ứng dụng
 
 Cách nhanh trên máy đã cài .NET và Node: nhấp đúp `Chay-GenZFashion.cmd` ở thư mục solution. File mở hai cửa sổ API/Web và trình duyệt. Đợi hai cửa sổ báo chạy xong rồi tải lại trang nếu cần. Không chạy thêm bản khác khi hai cửa sổ đang hoạt động. Dừng bằng Ctrl+C trong từng cửa sổ. Nếu dùng Visual Studio chạy API rồi thì chỉ chạy npm run dev riêng, không dùng launcher để tránh trùng cổng.

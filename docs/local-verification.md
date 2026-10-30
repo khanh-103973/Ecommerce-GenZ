@@ -16,10 +16,20 @@ Test dùng admin, khách hàng và sản phẩm synthetic có mã ngẫu nhiên 
 
 Sau khi dọn, số dòng và `CHECKSUM_AGG(BINARY_CHECKSUM(*))` của tất cả bảng trùng trước test: 20 sản phẩm, 80 biến thể, 4 danh mục, 1 thương hiệu, 1 ảnh, 1 đơn, 1 dòng đơn và 2 tài khoản. Checksum là kiểm tra đối chiếu, không phải bản backup hay chứng minh mật mã. Bộ đếm ID/rowversion của database có thể tăng do các thao tác synthetic.
 
-## Phạm vi chưa kiểm tra trong lượt này
+## Bổ sung kiểm thử giao diện cùng ngày
 
-- Chưa kiểm thử lại giao diện trình duyệt/mobile hoặc toàn bộ form và route. Build frontend không thay thế kiểm thử giao diện.
-- Chưa có test tự động .NET/frontend tích hợp CI. PowerShell integration tests hiện phụ thuộc Windows, SQL Server local và cấu hình phát triển.
+- Đã kiểm tra qua trình duyệt: đăng ký/đăng nhập, tạo sản phẩm và biến thể synthetic, thêm danh mục, tìm sản phẩm, chọn biến thể, chặn số lượng 0, thêm giỏ, đặt COD và hủy đơn Pending synthetic. Dashboard hiển thị tồn trở lại 3 sau hủy.
+- Đã kiểm tra dashboard, bảng đơn admin, lọc Pending rỗng và tìm khách hàng synthetic.
+- Đã thử viewport 390×844 cho menu customer, tìm kiếm, chi tiết sản phẩm, giỏ hàng, COD và form danh mục. Trang chi tiết đơn có scrollWidth bằng clientWidth, không tràn ngang.
+- Đã sửa: đăng nhập lại quay về route đang xem theo quyền tài khoản; xác minh bằng reload tại giỏ hàng và danh mục admin. Token vẫn chỉ ở bộ nhớ.
+- Đã sửa: form thêm danh mục/thương hiệu xóa nội dung sau thành công, giữ nội dung khi lỗi. Đã tái hiện và xác minh bản sửa qua form danh mục.
+- `npm test`: 5 bài đạt cho route quay lại sau đăng nhập, query/fragment, quyền Customer/Admin, chặn URL ngoài và vòng lặp login. `npm run build` đạt sau sửa.
+- Dữ liệu UI synthetic đã dọn; số dòng/checksum tất cả bảng khớp mốc trước chạy. Không đổi mật khẩu hoặc role của tài khoản thật.
+
+## Phạm vi còn lại
+
+- Chưa kiểm tra đầy đủ mọi form/route, lỗi mạng, hết hạn token trong lúc thao tác hoặc cập nhật đồng thời qua UI. Chưa kiểm thử lại thao tác chuyển đơn admin đến Completed qua UI trong lượt này; luồng backend đã đạt ở bộ test phía trên.
+- Chưa có test tự động .NET hoặc kiểm thử trình duyệt tích hợp CI. Frontend mới có 5 bài kiểm thử điều hướng bằng Node, chưa có bộ test component. PowerShell integration tests hiện phụ thuộc Windows, SQL Server local và cấu hình phát triển.
 - Chưa kết luận tối ưu truy vấn tải nhiều collection; chưa thay đổi cách truy vấn.
 - Chưa triển khai Docker/Jenkins/cloud, kiểm tra cấu hình production hoặc backup/restore database.
 
