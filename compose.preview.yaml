@@ -1,0 +1,29 @@
+name: genzfashion-compose-preview
+
+services:
+  api:
+    image: genzfashion-api:${GENZFASHION_IMAGE_TAG:?Set the image tag built by Jenkins}
+    pull_policy: never
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_HTTP_PORTS: "8080"
+      Jwt__SigningKey: ${GENZFASHION_JWT_SIGNING_KEY:?Set an external JWT signing key}
+      ConnectionStrings__GenZFashionDb: ${GENZFASHION_SQL_CONNECTION:?Set an external SQL connection string}
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  web:
+    image: genzfashion-web:${GENZFASHION_IMAGE_TAG:?Set the image tag built by Jenkins}
+    pull_policy: never
+    depends_on:
+      - api
+    ports:
+      - "127.0.0.1:18081:8080"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
