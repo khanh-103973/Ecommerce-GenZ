@@ -27,6 +27,8 @@ Nếu chưa có build mới, xem Git Polling Log của job để kiểm tra lư�
 
 ## Giới hạn hiện tại
 
+Đã nhận log xác nhận build image API/Web tại commit `7fdd5b9` kết thúc SUCCESS, Nginx syntax hợp lệ và kiểm tra user/config runtime API đạt. Sau đó đã thêm stage `Docker smoke test` và health live/ready; stage mới còn chờ kiểm chứng Jenkins. Xem [health checks](health-checks.md).
+
 Pipeline kiểm thử frontend và biên dịch/publish backend. Đã bổ sung stage build image ứng dụng và kiểm tra đóng gói; stage mới còn chờ kết quả chạy Jenkins. Xem [đóng gói Docker](docker-images.md). Chưa chạy kiểm thử nghiệp vụ backend với SQL Server trên Jenkins hoặc deploy AWS. Bản publish backend ở stage build/publish vẫn nằm trong thư mục tạm và mất khi container kết thúc.
 
 Không dùng secrets/database Windows local trong pipeline. Không thay đổi job `demo-cicd`, ứng dụng Flask hoặc tài nguyên AWS. Các tag image hiện có thể thay đổi theo bản vá; log ghi phiên bản thực tế của Node/npm/.NET ở từng lần chạy.

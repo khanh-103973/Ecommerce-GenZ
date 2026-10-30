@@ -116,11 +116,16 @@ pipeline {
                 '''
             }
         }
+        stage('Docker smoke test') {
+            steps {
+                sh 'bash scripts/test-docker-smoke.sh'
+            }
+        }
     }
 
     post {
         success {
-            echo 'SUCCESS: frontend tests/build, backend build/publish and application image builds passed.'
+            echo 'SUCCESS: frontend tests/build, backend build/publish, image builds and isolated Docker smoke test passed.'
         }
         failure {
             echo 'FAILED: inspect Console Output for the failing stage.'

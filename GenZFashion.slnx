@@ -57,10 +57,13 @@
     <File Path="Chay-GenZFashion.cmd" />
     <File Path="docs/frontend.md" />
     <File Path="docs/api-responses.md" />
+    <File Path="docs/health-checks.md" />
   </Folder>
   <Folder Name="/Kiem thu API/">
     <File Path="scripts/test-api-contract.ps1" />
     <File Path="scripts/test-api-failure-isolated.ps1" />
+    <File Path="scripts/test-docker-smoke.sh" />
+    <File Path="scripts/docker-smoke-client.mjs" />
     <File Path="scripts/test-backend-isolated.ps1" />
   </Folder>
   <Project Path="GenZFashion.Api/GenZFashion.Api.csproj" />

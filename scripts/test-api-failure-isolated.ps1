@@ -43,6 +43,10 @@ try {
         catch { Start-Sleep -Milliseconds 250 }
     }
     if (!$ready) { throw 'Isolated API did not become ready.' }
+    $live=Invoke-WebRequest "$base/api/health/live" -SkipHttpErrorCheck -TimeoutSec 10
+    $database=Invoke-WebRequest "$base/api/health/ready" -SkipHttpErrorCheck -TimeoutSec 10
+    if ($live.StatusCode -ne 200 -or [string]$live.Content -ne 'Healthy') { throw 'API liveness failed when database is unavailable.' }
+    if ($database.StatusCode -ne 503 -or [string]$database.Content -ne 'Unhealthy') { throw 'Database readiness must return 503 without exposing details.' }
     foreach ($accept in @('application/json','text/html')) {
         $response=Invoke-WebRequest "$base/api/products" -Headers @{Accept=$accept} -SkipHttpErrorCheck -TimeoutSec 15
         $problem=ReadJson $response
@@ -65,7 +69,7 @@ try {
     }
     $problem=ReadJson $response
     if ($problem.status -ne 429 -or !$problem.detail -or !$problem.traceId) { throw 'Missing JSON rate limit response.' }
-    'PASS: isolated Production 500 is safe JSON with traceId, Development endpoints hidden, shared auth limit returns JSON 429; no real database used.'
+    'PASS: isolated Production live=200, ready=503, safe JSON 500, hidden Development endpoints and shared auth JSON 429; no real database used.'
 }
 finally {
     if ($started -and !$process.HasExited) { $process.Kill($true); $process.WaitForExit() }
