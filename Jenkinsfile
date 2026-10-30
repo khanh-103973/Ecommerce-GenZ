@@ -1,6 +1,13 @@
 pipeline {
     agent { label 'ubuntu-docker' }
 
+    parameters {
+        booleanParam(name: 'DEPLOY_EC2_PREVIEW', defaultValue: false,
+            description: 'Deploy preview to EC2 after CI passes (database not configured).')
+        string(name: 'EC2_HOST', defaultValue: '16.178.41.15',
+            description: 'Current EC2 public IPv4; verify its host key on the agent first.')
+    }
+
     options {
         disableConcurrentBuilds()
         timeout(time: 20, unit: 'MINUTES')
@@ -119,6 +126,20 @@ pipeline {
         stage('Docker smoke test') {
             steps {
                 sh 'bash scripts/test-docker-smoke.sh'
+            }
+        }
+        stage('Deploy EC2 preview') {
+            when { expression { params.DEPLOY_EC2_PREVIEW } }
+            steps {
+                withCredentials([sshUserPrivateKey(
+                    credentialsId: 'genzfashion-ec2-ssh',
+                    keyFileVariable: 'EC2_KEY',
+                    usernameVariable: 'EC2_USER'
+                )]) {
+                    withEnv(["EC2_HOST=${params.EC2_HOST}"]) {
+                        sh 'bash scripts/deploy-ec2-preview.sh'
+                    }
+                }
             }
         }
     }

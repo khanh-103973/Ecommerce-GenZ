@@ -21,7 +21,7 @@ services:
     depends_on:
       - api
     ports:
-      - "127.0.0.1:18081:8080"
+      - "127.0.0.1:${GENZFASHION_WEB_PORT:-18081}:8080"
     logging:
       driver: json-file
       options:
