@@ -10,11 +10,16 @@ namespace GenZFashion.Api.Controllers;
 
 // Administrative operations require a valid JWT with the Admin role.
 [ApiController]
+[ProducesResponseType(typeof(ProblemDetails), 500, "application/problem+json", Description = "Lỗi chưa xử lý; thông báo chung và traceId, không trả chi tiết nội bộ.")]
 [Authorize(Roles = "Admin")]
+[ProducesResponseType(typeof(ProblemDetails), 401, "application/problem+json", Description = "Chưa đăng nhập, thông tin đăng nhập sai hoặc token hết hạn.")]
+[ProducesResponseType(typeof(ProblemDetails), 403, "application/problem+json", Description = "Tài khoản không có vai trò được yêu cầu.")]
 [Route("api/admin/products")]
 public class AdminProductsController(GenZFashionDbContext db) : ControllerBase
 {
     [HttpGet]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
     public async Task<IActionResult> List(
         [FromQuery, Range(1, 1000000)] int page = 1,
         [FromQuery, Range(1, 100)] int pageSize = 10,
@@ -29,6 +34,7 @@ public class AdminProductsController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpGet("lookups")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
     public async Task<IActionResult> Lookups(CancellationToken cancellationToken)
     {
         var categories = await db.Categories.AsNoTracking().OrderBy(x => x.Name).ToListAsync(cancellationToken);
@@ -37,6 +43,8 @@ public class AdminProductsController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpGet("{id:int}")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ProblemDetails), 404, "application/problem+json", Description = "Không tồn tại hoặc không thuộc phạm vi truy cập của tài khoản.")]
     public async Task<IActionResult> Detail(int id, CancellationToken cancellationToken)
     {
         var product = await db.Products.AsNoTracking().Where(p => p.Id == id)
@@ -52,6 +60,9 @@ public class AdminProductsController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpPost]
+    [ProducesResponseType(typeof(object), 201, "application/json", Description = "Đã tạo; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
+    [ProducesResponseType(typeof(object), 409, "application/json", "application/problem+json", Description = "Dữ liệu xung đột; kiểm tra thông báo và tải lại trước khi thử lại.")]
     public async Task<IActionResult> Create(ProductRequest request, CancellationToken cancellationToken)
     {
         if (!await ValidReferences(request, cancellationToken)) return ValidationProblem(ModelState);
@@ -63,6 +74,10 @@ public class AdminProductsController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpPut("{id:int}")]
+    [ProducesResponseType(204, Description = "Thành công; không có nội dung phản hồi.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
+    [ProducesResponseType(typeof(ProblemDetails), 404, "application/problem+json", Description = "Không tồn tại hoặc không thuộc phạm vi truy cập của tài khoản.")]
+    [ProducesResponseType(typeof(object), 409, "application/json", "application/problem+json", Description = "Dữ liệu xung đột; kiểm tra thông báo và tải lại trước khi thử lại.")]
     public async Task<IActionResult> Update(int id, ProductRequest request, CancellationToken cancellationToken)
     {
         var product = await db.Products.FindAsync([id], cancellationToken);
@@ -73,6 +88,10 @@ public class AdminProductsController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpPost("{id:int}/variants")]
+    [ProducesResponseType(typeof(object), 201, "application/json", Description = "Đã tạo; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
+    [ProducesResponseType(typeof(ProblemDetails), 404, "application/problem+json", Description = "Không tồn tại hoặc không thuộc phạm vi truy cập của tài khoản.")]
+    [ProducesResponseType(typeof(object), 409, "application/json", "application/problem+json", Description = "Dữ liệu xung đột; kiểm tra thông báo và tải lại trước khi thử lại.")]
     public async Task<IActionResult> CreateVariant(int id, VariantRequest request, CancellationToken cancellationToken)
     {
         if (!await db.Products.AnyAsync(p => p.Id == id, cancellationToken)) return NotFound();
@@ -84,6 +103,10 @@ public class AdminProductsController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpPut("{id:int}/variants/{variantId:int}")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
+    [ProducesResponseType(typeof(ProblemDetails), 404, "application/problem+json", Description = "Không tồn tại hoặc không thuộc phạm vi truy cập của tài khoản.")]
+    [ProducesResponseType(typeof(object), 409, "application/json", "application/problem+json", Description = "Dữ liệu xung đột; kiểm tra thông báo và tải lại trước khi thử lại.")]
     public async Task<IActionResult> UpdateVariant(int id, int variantId, UpdateVariantRequest request, CancellationToken cancellationToken)
     {
         var variant = await db.ProductVariants.SingleOrDefaultAsync(v => v.Id == variantId && v.ProductId == id, cancellationToken);

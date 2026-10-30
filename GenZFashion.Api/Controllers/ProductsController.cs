@@ -6,10 +6,13 @@ using Microsoft.EntityFrameworkCore;
 namespace GenZFashion.Api.Controllers;
 
 [ApiController]
+[ProducesResponseType(typeof(ProblemDetails), 500, "application/problem+json", Description = "Lỗi chưa xử lý; thông báo chung và traceId, không trả chi tiết nội bộ.")]
 [Route("api/products")]
 public class ProductsController(GenZFashionDbContext db) : ControllerBase
 {
     [HttpGet]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
     public async Task<IActionResult> List(
         [FromQuery, StringLength(100)] string? search,
         [FromQuery, Range(1, int.MaxValue)] int? categoryId,
@@ -50,6 +53,8 @@ public class ProductsController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpGet("{id:int}")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ProblemDetails), 404, "application/problem+json", Description = "Không tồn tại hoặc không thuộc phạm vi truy cập của tài khoản.")]
     public async Task<IActionResult> Detail(int id, CancellationToken cancellationToken)
     {
         var product = await db.Products.AsNoTracking().Where(p => p.Id == id && p.IsActive)

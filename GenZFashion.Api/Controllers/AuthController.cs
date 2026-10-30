@@ -12,12 +12,17 @@ using Microsoft.EntityFrameworkCore;
 namespace GenZFashion.Api.Controllers;
 
 [ApiController]
+[ProducesResponseType(typeof(ProblemDetails), 500, "application/problem+json", Description = "Lỗi chưa xử lý; thông báo chung và traceId, không trả chi tiết nội bộ.")]
 [Route("api/auth")]
 public class AuthController(UserManager<ApplicationUser> users, SignInManager<ApplicationUser> signIn,
     GenZFashionDbContext db, JwtTokenService tokens) : ControllerBase
 {
     [HttpPost("register")]
     [EnableRateLimiting("auth")]
+    [ProducesResponseType(typeof(object), 201, "application/json", Description = "Đã tạo; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(object), 400, "application/json", "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
+    [ProducesResponseType(typeof(object), 409, "application/json", "application/problem+json", Description = "Dữ liệu xung đột; kiểm tra thông báo và tải lại trước khi thử lại.")]
+    [ProducesResponseType(typeof(ProblemDetails), 429, "application/problem+json", Description = "Vượt 30 yêu cầu auth/phút/IP; thử lại sau một phút.")]
     public async Task<IActionResult> Register(RegisterRequest request)
     {
         await using var transaction = await db.Database.BeginTransactionAsync();
@@ -39,6 +44,10 @@ public class AuthController(UserManager<ApplicationUser> users, SignInManager<Ap
 
     [HttpPost("login")]
     [EnableRateLimiting("auth")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(object), 400, "application/json", "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
+    [ProducesResponseType(typeof(object), 401, "application/json", "application/problem+json", Description = "Chưa đăng nhập, thông tin đăng nhập sai hoặc token hết hạn.")]
+    [ProducesResponseType(typeof(ProblemDetails), 429, "application/problem+json", Description = "Vượt 30 yêu cầu auth/phút/IP; thử lại sau một phút.")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
         var user = await users.FindByEmailAsync(request.Email.Trim());
@@ -51,6 +60,8 @@ public class AuthController(UserManager<ApplicationUser> users, SignInManager<Ap
 
     [Authorize]
     [HttpGet("me")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ProblemDetails), 401, "application/problem+json", Description = "Chưa đăng nhập, thông tin đăng nhập sai hoặc token hết hạn.")]
     public async Task<IActionResult> Me()
     {
         var user = await users.FindByIdAsync(User.FindFirstValue("sub")!);

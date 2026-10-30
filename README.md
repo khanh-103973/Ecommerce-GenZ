@@ -13,6 +13,7 @@ Repository: https://github.com/khanh-103973/Ecommerce-GenZ.git
 - Kiểm thử backend: khi API https đang chạy, dùng PowerShell 7 chạy `pwsh -NoProfile -File scripts/test-backend-isolated.ps1`. Bộ test tạo admin synthetic riêng, kiểm thử auth/commerce/catalog/lookups và dọn dữ liệu; không đổi mật khẩu admin thật. Không thao tác website đồng thời khi chạy kiểm thử thống kê.
 - Kiểm thử chỉ đọc bộ lọc: `pwsh -NoProfile -File scripts/test-product-discovery.ps1`.
 - Kết quả xác minh và giới hạn: [kiểm chứng bản local](docs/local-verification.md). Chưa triển khai cloud hoặc CI/CD.
+- Mã phản hồi, nội dung lỗi và kiểm thử OpenAPI: [hướng dẫn phản hồi API](docs/api-responses.md).
 - Git chỉ sao lưu mã nguồn; không sao lưu database và User Secrets. Máy khác cần cấu hình local riêng.
 
 ## Lịch sử thực hành

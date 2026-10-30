@@ -6,11 +6,15 @@ using Microsoft.EntityFrameworkCore;
 namespace GenZFashion.Api.Controllers;
 
 [ApiController]
+[ProducesResponseType(typeof(ProblemDetails), 500, "application/problem+json", Description = "Lỗi chưa xử lý; thông báo chung và traceId, không trả chi tiết nội bộ.")]
 [Authorize(Roles = "Admin")]
+[ProducesResponseType(typeof(ProblemDetails), 401, "application/problem+json", Description = "Chưa đăng nhập, thông tin đăng nhập sai hoặc token hết hạn.")]
+[ProducesResponseType(typeof(ProblemDetails), 403, "application/problem+json", Description = "Tài khoản không có vai trò được yêu cầu.")]
 [Route("api/admin/dashboard")]
 public class AdminDashboardController(GenZFashionDbContext db) : ControllerBase
 {
     [HttpGet]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
     public async Task<IActionResult> Get(CancellationToken ct)
     {
         var totalProducts = await db.Products.CountAsync(ct);

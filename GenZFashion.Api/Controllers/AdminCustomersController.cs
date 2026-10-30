@@ -7,7 +7,10 @@ using Microsoft.EntityFrameworkCore;
 namespace GenZFashion.Api.Controllers;
 
 [ApiController]
+[ProducesResponseType(typeof(ProblemDetails), 500, "application/problem+json", Description = "Lỗi chưa xử lý; thông báo chung và traceId, không trả chi tiết nội bộ.")]
 [Authorize(Roles = "Admin")]
+[ProducesResponseType(typeof(ProblemDetails), 401, "application/problem+json", Description = "Chưa đăng nhập, thông tin đăng nhập sai hoặc token hết hạn.")]
+[ProducesResponseType(typeof(ProblemDetails), 403, "application/problem+json", Description = "Tài khoản không có vai trò được yêu cầu.")]
 [Route("api/admin/customers")]
 public class AdminCustomersController(GenZFashionDbContext db) : ControllerBase
 {
@@ -15,6 +18,8 @@ public class AdminCustomersController(GenZFashionDbContext db) : ControllerBase
         db.UserRoles.Any(ur => ur.UserId == u.Id && db.Roles.Any(r => r.Id == ur.RoleId && r.NormalizedName == "CUSTOMER")));
 
     [HttpGet]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
     public async Task<IActionResult> List([FromQuery, StringLength(100)] string? search,
         [FromQuery, Range(1, 1000000)] int page = 1,
         [FromQuery, Range(1, 100)] int pageSize = 10, CancellationToken ct = default)
@@ -38,6 +43,8 @@ public class AdminCustomersController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpGet("{id}")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ProblemDetails), 404, "application/problem+json", Description = "Không tồn tại hoặc không thuộc phạm vi truy cập của tài khoản.")]
     public async Task<IActionResult> Detail(string id, CancellationToken ct)
     {
         var customer = await Customers.Where(u => u.Id == id).Select(u => new
@@ -52,6 +59,9 @@ public class AdminCustomersController(GenZFashionDbContext db) : ControllerBase
     }
 
     [HttpGet("{id}/orders")]
+    [ProducesResponseType(typeof(object), 200, "application/json", Description = "Thành công; trả dữ liệu JSON.")]
+    [ProducesResponseType(typeof(ValidationProblemDetails), 400, "application/problem+json", Description = "Dữ liệu hoặc tham số không hợp lệ.")]
+    [ProducesResponseType(typeof(ProblemDetails), 404, "application/problem+json", Description = "Không tồn tại hoặc không thuộc phạm vi truy cập của tài khoản.")]
     public async Task<IActionResult> Orders(string id,
         [FromQuery, Range(1, 1000000)] int page = 1,
         [FromQuery, Range(1, 100)] int pageSize = 10, CancellationToken ct = default)

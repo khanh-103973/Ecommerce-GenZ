@@ -14,6 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(options => options.Filters.Add<GenZFashion.Api.Filters.CommerceExceptionFilter>())
     .AddJsonOptions(options => options.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter(allowIntegerValues: false)));
 builder.Services.AddScoped<CommerceService>();
+builder.Services.AddProblemDetails(options => options.CustomizeProblemDetails = context =>
+    context.ProblemDetails.Extensions["traceId"] = context.HttpContext.TraceIdentifier);
 builder.Services.AddDbContext<GenZFashionDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("GenZFashionDb")
         ?? throw new InvalidOperationException("ConnectionStrings:GenZFashionDb is required.")));
@@ -64,6 +66,30 @@ if (args.Contains("--bootstrap-admin"))
 }
 
 // Configure the HTTP request pipeline.
+// Return a safe JSON error instead of exception details, including in local Development.
+app.UseExceptionHandler(errorApp => errorApp.Run(context =>
+    Results.Problem(statusCode: StatusCodes.Status500InternalServerError,
+        title: "Lỗi xử lý yêu cầu",
+        detail: "Không thể xử lý yêu cầu lúc này. Vui lòng thử lại sau.",
+        extensions: new Dictionary<string, object?> { ["traceId"] = context.TraceIdentifier })
+        .ExecuteAsync(context)));
+app.UseStatusCodePages(async statusContext =>
+{
+    var context = statusContext.HttpContext;
+    if (!context.Request.Path.StartsWithSegments("/api")) return;
+    var (title, detail) = context.Response.StatusCode switch
+    {
+        400 => ("Yêu cầu không hợp lệ", "Kiểm tra dữ liệu gửi lên và thử lại."),
+        401 => ("Chưa xác thực", "Vui lòng đăng nhập lại."),
+        403 => ("Không có quyền truy cập", "Tài khoản không có quyền thực hiện thao tác này."),
+        404 => ("Không tìm thấy dữ liệu", "Dữ liệu không tồn tại hoặc bạn không có quyền truy cập."),
+        429 => ("Quá nhiều yêu cầu", "Bạn thao tác quá nhanh. Vui lòng thử lại sau một phút."),
+        _ => ("Không thể thực hiện yêu cầu", "Vui lòng kiểm tra yêu cầu và thử lại.")
+    };
+    await Results.Problem(statusCode: context.Response.StatusCode, title: title, detail: detail,
+        extensions: new Dictionary<string, object?> { ["traceId"] = context.TraceIdentifier })
+        .ExecuteAsync(context);
+});
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();

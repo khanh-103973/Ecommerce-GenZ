@@ -8,6 +8,7 @@
   </Folder>
   <Folder Name="/GenZFashion.Web/src/">
     <File Path="GenZFashion.Web/src/api.js" />
+    <File Path="GenZFashion.Web/src/api.test.js" />
     <File Path="GenZFashion.Web/src/App.jsx" />
     <File Path="GenZFashion.Web/src/auth-navigation.js" />
     <File Path="GenZFashion.Web/src/auth-navigation.test.js" />
@@ -55,6 +56,12 @@
   <Folder Name="/Huong dan va khoi dong/">
     <File Path="Chay-GenZFashion.cmd" />
     <File Path="docs/frontend.md" />
+    <File Path="docs/api-responses.md" />
+  </Folder>
+  <Folder Name="/Kiem thu API/">
+    <File Path="scripts/test-api-contract.ps1" />
+    <File Path="scripts/test-api-failure-isolated.ps1" />
+    <File Path="scripts/test-backend-isolated.ps1" />
   </Folder>
   <Project Path="GenZFashion.Api/GenZFashion.Api.csproj" />
 </Solution>

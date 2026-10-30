@@ -35,10 +35,20 @@ Sau khi dọn, số dòng và `CHECKSUM_AGG(BINARY_CHECKSUM(*))` của tất c�
 - Admin: dashboard, danh sách/chi tiết sản phẩm và các form biến thể/ảnh, danh sách/chi tiết đơn 7 (chỉ xem), tìm khách/hồ sơ, danh mục và thương hiệu đều hiển thị được.
 - Lượt refactor chỉ tạo tài khoản synthetic rồi dọn; không đặt đơn, sửa sản phẩm, reset mật khẩu hoặc chạy migration. Chưa chạy lại toàn bộ thao tác ghi/COD qua UI sau tách; lượt kiểm thử UI trước đó ghi ở trên.
 
+## Sau khi bổ sung metadata và xử lý lỗi API
+
+- Cả 41 action nghiệp vụ khai báo mã thành công/lỗi liên quan; 204 không có schema/body hoặc mã 200 mặc định thừa. Giữ các phản hồi nghiệp vụ và payload thành công hiện có.
+- Có middleware trả 500 ProblemDetails với thông báo chung và traceId; lỗi chưa có body dưới `/api` được bổ sung JSON. Xem [mã phản hồi API](api-responses.md) để biết phần còn dùng schema tổng quát và mẫu lỗi cũ.
+- `scripts/test-api-contract.ps1`: đạt kiểm tra 41 action, metadata JWT, 204 không có body, 429/500 trong tài liệu và lỗi 400/401/404 thực tế.
+- `scripts/test-api-failure-isolated.ps1`: đạt trên tiến trình Production tạm; 500 có JSON/traceId với JSON và HTML Accept, không chứa stack trace/chi tiết SQL; Swagger/OpenAPI/health Development bị ẩn; xen kẽ đăng ký/đăng nhập vượt giới hạn chung trả JSON 429. Không kết nối database thật.
+- Đã chạy lại toàn bộ `scripts/test-backend-isolated.ps1`: auth, phân quyền, COD/rollback/replay/concurrency/hoàn tồn, dashboard/khách hàng, CRUD catalog/ảnh/lookups đều đạt.
+- Sau khi dọn dữ liệu synthetic, số dòng/checksum của tất cả bảng khớp mốc trước bộ test. Build solution cuối đạt 0 lỗi/0 cảnh báo; API kiểm thử đã được dừng trước build.
+- `npm test`: 10 bài đạt, gồm 5 bài điều hướng và 5 bài đọc lỗi/204 của frontend. Build frontend và kiểm tra định dạng đạt. Không chạy lại kiểm thử giao diện trình duyệt trong lượt thay đổi middleware này.
+
 ## Phạm vi còn lại
 
 - Chưa kiểm tra đầy đủ mọi form/route, lỗi mạng, hết hạn token trong lúc thao tác hoặc cập nhật đồng thời qua UI. Chưa kiểm thử lại thao tác chuyển đơn admin đến Completed qua UI trong lượt này; luồng backend đã đạt ở bộ test phía trên.
-- Chưa có test tự động .NET hoặc kiểm thử trình duyệt tích hợp CI. Frontend mới có 5 bài kiểm thử điều hướng bằng Node, chưa có bộ test component. PowerShell integration tests hiện phụ thuộc Windows, SQL Server local và cấu hình phát triển.
+- Chưa có test tự động .NET hoặc kiểm thử trình duyệt tích hợp CI. Frontend có 10 bài kiểm thử điều hướng/đọc lỗi bằng Node, chưa có bộ test component. PowerShell integration tests hiện phụ thuộc Windows, SQL Server local và cấu hình phát triển.
 - Chưa kết luận tối ưu truy vấn tải nhiều collection; chưa thay đổi cách truy vấn.
 - Chưa triển khai Docker/Jenkins/cloud, kiểm tra cấu hình production hoặc backup/restore database.
 
