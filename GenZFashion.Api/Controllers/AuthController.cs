@@ -1,0 +1,60 @@
+using System.Security.Claims;
+using GenZFashion.Api.Contracts;
+using GenZFashion.Api.Data;
+using GenZFashion.Api.Services;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+
+namespace GenZFashion.Api.Controllers;
+
+[ApiController]
+[Route("api/auth")]
+public class AuthController(UserManager<ApplicationUser> users, SignInManager<ApplicationUser> signIn,
+    GenZFashionDbContext db, JwtTokenService tokens) : ControllerBase
+{
+    [HttpPost("register")]
+    [EnableRateLimiting("auth")]
+    public async Task<IActionResult> Register(RegisterRequest request)
+    {
+        await using var transaction = await db.Database.BeginTransactionAsync();
+        var email = request.Email.Trim();
+        var user = new ApplicationUser { UserName = email, Email = email, FullName = request.FullName.Trim() };
+        try
+        {
+            var result = await users.CreateAsync(user, request.Password);
+            if (!result.Succeeded)
+                return BadRequest(new { errors = result.Errors.Select(e => new { e.Code, e.Description }) });
+            var roleResult = await users.AddToRoleAsync(user, "Customer");
+            if (!roleResult.Succeeded) throw new InvalidOperationException("Cannot assign Customer role.");
+            await transaction.CommitAsync();
+            return StatusCode(201, new { user.Id, user.Email, user.FullName, role = "Customer" });
+        }
+        catch (DbUpdateException ex) when (ex.InnerException is SqlException { Number: 2601 or 2627 })
+        { return Conflict(new { message = "Email đã được sử dụng." }); }
+    }
+
+    [HttpPost("login")]
+    [EnableRateLimiting("auth")]
+    public async Task<IActionResult> Login(LoginRequest request)
+    {
+        var user = await users.FindByEmailAsync(request.Email.Trim());
+        if (user is null) return Unauthorized(new { message = "Email hoặc mật khẩu không đúng." });
+        var result = await signIn.CheckPasswordSignInAsync(user, request.Password, lockoutOnFailure: true);
+        if (!result.Succeeded) return Unauthorized(new { message = "Không thể đăng nhập. Kiểm tra thông tin hoặc thử lại sau." });
+        Response.Headers.CacheControl = "no-store";
+        return Ok(tokens.Create(user, await users.GetRolesAsync(user)));
+    }
+
+    [Authorize]
+    [HttpGet("me")]
+    public async Task<IActionResult> Me()
+    {
+        var user = await users.FindByIdAsync(User.FindFirstValue("sub")!);
+        return user is null ? Unauthorized() : Ok(new
+        { user.Id, user.Email, user.FullName, roles = await users.GetRolesAsync(user) });
+    }
+}

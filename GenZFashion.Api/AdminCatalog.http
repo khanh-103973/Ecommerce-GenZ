@@ -1,0 +1,47 @@
+@host = https://localhost:7044
+@adminToken = REPLACE_WITH_LOCAL_TOKEN_DO_NOT_COMMIT
+
+### Get IDs for categoryId and brandId before creating a product.
+GET {{host}}/api/admin/products/lookups
+Authorization: Bearer {{adminToken}}
+
+### Includes hidden products.
+GET {{host}}/api/admin/products?page=1&pageSize=10
+Authorization: Bearer {{adminToken}}
+
+### Example only: replace categoryId/brandId with values from lookups.
+POST {{host}}/api/admin/products
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "name": "Áo thun thực hành [synthetic]",
+  "description": "synthetic: Sản phẩm thực hành API admin",
+  "categoryId": 1,
+  "brandId": 1,
+  "isActive": false
+}
+
+### Replace productId with the ID returned by POST before sending these requests.
+@productId = 0
+GET {{host}}/api/admin/products/{{productId}}
+Authorization: Bearer {{adminToken}}
+
+### Add a variant to the new product.
+POST {{host}}/api/admin/products/{{productId}}/variants
+Authorization: Bearer {{adminToken}}
+Content-Type: application/json
+
+{
+  "sku": "SYN-PRACTICE-BLACK-M",
+  "size": "M",
+  "color": "Đen",
+  "price": 250000,
+  "stockQuantity": 10,
+  "isActive": true
+}
+
+### To update: PUT /api/admin/products/{productId} with all product fields.
+### To update a variant: PUT /api/admin/products/{productId}/variants/{variantId}
+### Include all variant fields plus rowVersion from the latest admin detail response.
+### rowVersion is a Base64 string. Reload after HTTP 409 rather than overwriting blindly.

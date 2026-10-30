@@ -1,0 +1,11 @@
+@GenZFashion.Api_HostAddress = https://localhost:7044
+
+GET {{GenZFashion.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{GenZFashion.Api_HostAddress}}/health/database
+Accept: application/json
+
+###

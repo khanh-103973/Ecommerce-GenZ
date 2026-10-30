@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/GenZFashion.Web/">
+    <File Path="GenZFashion.Web/package.json" />
+    <File Path="GenZFashion.Web/package-lock.json" />
+    <File Path="GenZFashion.Web/index.html" />
+    <File Path="GenZFashion.Web/vite.config.js" />
+    <File Path="GenZFashion.Web/src/main.jsx" />
+    <File Path="GenZFashion.Web/src/api.js" />
+    <File Path="GenZFashion.Web/src/style.css" />
+  </Folder>
+  <Folder Name="/Huong dan va khoi dong/">
+    <File Path="Chay-GenZFashion.cmd" />
+    <File Path="docs/frontend.md" />
+  </Folder>
+  <Project Path="GenZFashion.Api/GenZFashion.Api.csproj" />
+</Solution>
