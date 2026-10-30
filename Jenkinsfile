@@ -79,11 +79,48 @@ pipeline {
                 '''
             }
         }
+        stage('Build application images') {
+            steps {
+                sh '''
+                    set -eu
+                    tag="$(git rev-parse --short=12 HEAD)"
+
+                    docker build \
+                        --file GenZFashion.Api/Dockerfile \
+                        --tag "genzfashion-api:$tag" \
+                        .
+
+                    docker build \
+                        --file GenZFashion.Web/Dockerfile \
+                        --tag "genzfashion-web:$tag" \
+                        .
+
+                    docker image inspect \
+                        --format '{{.RepoTags}} size={{.Size}} bytes' \
+                        "genzfashion-api:$tag" "genzfashion-web:$tag"
+
+                    docker run --rm --network none \
+                        --entrypoint nginx "genzfashion-web:$tag" -t
+
+                    docker run --rm --network none \
+                        --entrypoint sh "genzfashion-api:$tag" -c '
+                            set -eu
+                            test "$(id -u)" -ne 0
+                            test -f /app/GenZFashion.Api.dll
+                            test ! -f /app/appsettings.Development.json
+                            test ! -f /app/appsettings.Local.json
+                            dotnet --list-runtimes
+                        '
+
+                    echo "PASS: application images built for commit $tag; no deployment performed."
+                '''
+            }
+        }
     }
 
     post {
         success {
-            echo 'SUCCESS: frontend tests/build and backend build/publish passed.'
+            echo 'SUCCESS: frontend tests/build, backend build/publish and application image builds passed.'
         }
         failure {
             echo 'FAILED: inspect Console Output for the failing stage.'

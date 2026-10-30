@@ -13,7 +13,7 @@
 
 Ngày 30/10/2026, người dùng đã lưu Poll SCM với lịch `H/2 * * * *` cho job `ecommerce-cicd`. Build periodically không được chọn.
 
-Tệp này được thêm để tạo một thay đổi Git phục vụ kiểm chứng tự kích hoạt. Tại thời điểm ghi tài liệu, kết quả tự kích hoạt còn chờ xác nhận, không coi việc lưu lịch là bằng chứng Jenkins đã tự chạy.
+Đã kiểm chứng bằng log người dùng gửi: `Started by an SCM change`, checkout commit `356f8fb5337f72294727423c1fc42eced6f2fef2`, frontend 10/10 test và build, backend build/publish 0 lỗi/0 cảnh báo, kết thúc `Finished: SUCCESS`.
 
 Sau khi push commit chứa tài liệu này:
 
@@ -27,6 +27,6 @@ Nếu chưa có build mới, xem Git Polling Log của job để kiểm tra lư�
 
 ## Giới hạn hiện tại
 
-Pipeline hiện kiểm thử frontend và biên dịch/publish backend. Chưa chạy kiểm thử nghiệp vụ backend với SQL Server trên Jenkins; chưa đóng gói image ứng dụng hoặc deploy AWS. Bản publish backend nằm trong thư mục tạm và mất khi container kết thúc.
+Pipeline kiểm thử frontend và biên dịch/publish backend. Đã bổ sung stage build image ứng dụng và kiểm tra đóng gói; stage mới còn chờ kết quả chạy Jenkins. Xem [đóng gói Docker](docker-images.md). Chưa chạy kiểm thử nghiệp vụ backend với SQL Server trên Jenkins hoặc deploy AWS. Bản publish backend ở stage build/publish vẫn nằm trong thư mục tạm và mất khi container kết thúc.
 
 Không dùng secrets/database Windows local trong pipeline. Không thay đổi job `demo-cicd`, ứng dụng Flask hoặc tài nguyên AWS. Các tag image hiện có thể thay đổi theo bản vá; log ghi phiên bản thực tế của Node/npm/.NET ở từng lần chạy.
