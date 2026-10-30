@@ -26,6 +26,15 @@ Sau khi dọn, số dòng và `CHECKSUM_AGG(BINARY_CHECKSUM(*))` của tất c�
 - `npm test`: 5 bài đạt cho route quay lại sau đăng nhập, query/fragment, quyền Customer/Admin, chặn URL ngoài và vòng lặp login. `npm run build` đạt sau sửa.
 - Dữ liệu UI synthetic đã dọn; số dòng/checksum tất cả bảng khớp mốc trước chạy. Không đổi mật khẩu hoặc role của tài khoản thật.
 
+## Sau khi tách frontend thành module
+
+- `main.jsx` chỉ còn khởi tạo React; `App.jsx` giữ route. Đã tách context, hooks, components, layouts và pages; cập nhật Solution Folder để các tệp xuất hiện trong Visual Studio.
+- Đối chiếu cả 36 khai báo của `main.jsx` trước tách với bản mới sau chuẩn hóa định dạng: khớp toàn bộ. CSS trước/sau chuẩn hóa cũng khớp; bản build giữ nguyên hash CSS. Đây là kiểm tra việc di chuyển/định dạng, không thay thế kiểm thử hành vi.
+- `npm test` (5 bài), `npm run build`, `npm run format:check` đều đạt sau tách.
+- Trình duyệt: trang chủ, tìm kiếm rỗng, xóa bộ lọc, giá tăng + còn hàng (19 sản phẩm), chi tiết/chọn biến thể, đăng ký synthetic và quay lại sản phẩm, giỏ rỗng, lịch sử đơn rỗng, đăng nhập/đăng xuất.
+- Admin: dashboard, danh sách/chi tiết sản phẩm và các form biến thể/ảnh, danh sách/chi tiết đơn 7 (chỉ xem), tìm khách/hồ sơ, danh mục và thương hiệu đều hiển thị được.
+- Lượt refactor chỉ tạo tài khoản synthetic rồi dọn; không đặt đơn, sửa sản phẩm, reset mật khẩu hoặc chạy migration. Chưa chạy lại toàn bộ thao tác ghi/COD qua UI sau tách; lượt kiểm thử UI trước đó ghi ở trên.
+
 ## Phạm vi còn lại
 
 - Chưa kiểm tra đầy đủ mọi form/route, lỗi mạng, hết hạn token trong lúc thao tác hoặc cập nhật đồng thời qua UI. Chưa kiểm thử lại thao tác chuyển đơn admin đến Completed qua UI trong lượt này; luồng backend đã đạt ở bộ test phía trên.

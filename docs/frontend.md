@@ -8,6 +8,23 @@ Khi mở trang cần đăng nhập hoặc tải lại giỏ/đơn/trang admin, �
 
 Form thêm danh mục/thương hiệu xóa ô tên sau khi lưu thành công. Kiểm thử điều hướng chạy bằng `npm test` trong thư mục `GenZFashion.Web` (Node test runner, không cần cài thêm gói). Xem [phạm vi kiểm chứng giao diện](local-verification.md).
 
+## Cấu trúc mã nguồn
+
+`src/main.jsx` chỉ gắn React vào phần tử `root` và nạp CSS. `src/App.jsx` khai báo các route và chọn bố cục customer/admin.
+
+- `context/AuthContext.jsx`: trạng thái tài khoản, đăng nhập, đăng xuất và thông báo hết phiên; mọi trang dùng cùng một context.
+- `hooks/useData.js`: tải dữ liệu, loading/lỗi, hủy request khi đổi trang và tải lại. `hooks/useTask.jsx`: trạng thái khi gửi thao tác và thông báo kết quả.
+- `components/`: kiểm tra quyền (`Guard`), trạng thái tải/lỗi, trường nhập, phân trang, badge, ảnh và thẻ sản phẩm.
+- `layouts/`: header/footer cửa hàng và sidebar quản trị.
+- `pages/`: trang chủ, bộ sưu tập, sản phẩm, đăng nhập và giỏ hàng.
+- `pages/orders/`: danh sách/chi tiết đơn dùng chung cho customer và admin qua prop `admin`.
+- `pages/admin/`: dashboard, sản phẩm/biến thể/ảnh, danh mục/thương hiệu và khách hàng.
+- `api.js`: gọi API và định dạng giá/trạng thái. `auth-navigation.js`: chọn route sau đăng nhập, có kiểm thử riêng.
+
+Ví dụ: muốn sửa ô SKU/tồn kho, đọc `pages/admin/ProductForms.jsx`; muốn sửa trang giỏ, đọc `pages/Cart.jsx`; muốn thêm hoặc xem route, đọc `App.jsx`. Frontend vẫn là Solution Folder trong Visual Studio, không phải project C#.
+
+Công cụ Prettier chỉ phục vụ phát triển, được ghim phiên bản trong package/lockfile. Chạy `npm run format` để định dạng `src`, hoặc `npm run format:check` để chỉ kiểm tra. Không đổi nghiệp vụ khi tách mã.
+
 ## Chạy ứng dụng
 
 Cách nhanh trên máy đã cài .NET và Node: nhấp đúp `Chay-GenZFashion.cmd` ở thư mục solution. File mở hai cửa sổ API/Web và trình duyệt. Đợi hai cửa sổ báo chạy xong rồi tải lại trang nếu cần. Không chạy thêm bản khác khi hai cửa sổ đang hoạt động. Dừng bằng Ctrl+C trong từng cửa sổ. Nếu dùng Visual Studio chạy API rồi thì chỉ chạy npm run dev riêng, không dùng launcher để tránh trùng cổng.

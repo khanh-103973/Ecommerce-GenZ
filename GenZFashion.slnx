@@ -4,9 +4,53 @@
     <File Path="GenZFashion.Web/package-lock.json" />
     <File Path="GenZFashion.Web/index.html" />
     <File Path="GenZFashion.Web/vite.config.js" />
-    <File Path="GenZFashion.Web/src/main.jsx" />
+    <File Path="GenZFashion.Web/.prettierrc.json" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/">
     <File Path="GenZFashion.Web/src/api.js" />
+    <File Path="GenZFashion.Web/src/App.jsx" />
+    <File Path="GenZFashion.Web/src/auth-navigation.js" />
+    <File Path="GenZFashion.Web/src/auth-navigation.test.js" />
+    <File Path="GenZFashion.Web/src/main.jsx" />
     <File Path="GenZFashion.Web/src/style.css" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/components/">
+    <File Path="GenZFashion.Web/src/components/Guard.jsx" />
+    <File Path="GenZFashion.Web/src/components/ProductArt.jsx" />
+    <File Path="GenZFashion.Web/src/components/ProductCard.jsx" />
+    <File Path="GenZFashion.Web/src/components/ScrollToTop.jsx" />
+    <File Path="GenZFashion.Web/src/components/ui.jsx" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/context/">
+    <File Path="GenZFashion.Web/src/context/AuthContext.jsx" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/hooks/">
+    <File Path="GenZFashion.Web/src/hooks/useData.js" />
+    <File Path="GenZFashion.Web/src/hooks/useTask.jsx" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/layouts/">
+    <File Path="GenZFashion.Web/src/layouts/AdminLayout.jsx" />
+    <File Path="GenZFashion.Web/src/layouts/StoreLayout.jsx" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/pages/">
+    <File Path="GenZFashion.Web/src/pages/Cart.jsx" />
+    <File Path="GenZFashion.Web/src/pages/Home.jsx" />
+    <File Path="GenZFashion.Web/src/pages/Login.jsx" />
+    <File Path="GenZFashion.Web/src/pages/ProductDetail.jsx" />
+    <File Path="GenZFashion.Web/src/pages/Shop.jsx" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/pages/admin/">
+    <File Path="GenZFashion.Web/src/pages/admin/CustomerDetail.jsx" />
+    <File Path="GenZFashion.Web/src/pages/admin/Customers.jsx" />
+    <File Path="GenZFashion.Web/src/pages/admin/Dashboard.jsx" />
+    <File Path="GenZFashion.Web/src/pages/admin/Lookups.jsx" />
+    <File Path="GenZFashion.Web/src/pages/admin/ProductDetail.jsx" />
+    <File Path="GenZFashion.Web/src/pages/admin/ProductForms.jsx" />
+    <File Path="GenZFashion.Web/src/pages/admin/Products.jsx" />
+  </Folder>
+  <Folder Name="/GenZFashion.Web/src/pages/orders/">
+    <File Path="GenZFashion.Web/src/pages/orders/OrderDetail.jsx" />
+    <File Path="GenZFashion.Web/src/pages/orders/OrderList.jsx" />
   </Folder>
   <Folder Name="/Huong dan va khoi dong/">
     <File Path="Chay-GenZFashion.cmd" />
