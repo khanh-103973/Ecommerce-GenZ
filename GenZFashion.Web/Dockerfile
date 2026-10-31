@@ -7,6 +7,7 @@ RUN npm ci
 
 COPY GenZFashion.Web/index.html GenZFashion.Web/vite.config.js ./
 COPY GenZFashion.Web/src/ ./src/
+COPY GenZFashion.Web/public/ ./public/
 RUN npm run build
 
 FROM nginx:stable-alpine AS runtime

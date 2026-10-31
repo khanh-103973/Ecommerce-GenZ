@@ -21,3 +21,4 @@
 *.db
 *.sqlite
 *.sqlite3
+.catalog-work/

@@ -1,0 +1,2002 @@
+[
+  {
+    "code": "CC0-001",
+    "name": "Đầm mẫu 01",
+    "category": "Đầm",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-001.jpg",
+    "sha256": "402f344664fd45283f8175792851e06564c48cdfb7ef11566af7125fe4fa637e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/07cddef1-1fc8-47e4-a28a-613e60912590.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-002",
+    "name": "Đầm mẫu 02",
+    "category": "Đầm",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-002.jpg",
+    "sha256": "ad12c968d78857ceb68de251de0660f99792de15b6c4ca615382f00a07b46269",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/19e4de0d-fb90-47c2-83b4-37e3652c5a16.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-003",
+    "name": "Đầm mẫu 03",
+    "category": "Đầm",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-003.jpg",
+    "sha256": "15da93e283220c4c3eb08adfb3daeb51fafe94671e151fe9b753450621126cd9",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/22ee2330-a2e7-4abf-aec1-0699e819a248.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-004",
+    "name": "Đầm mẫu 04",
+    "category": "Đầm",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-004.jpg",
+    "sha256": "fe710c683544b39550b405036ec0a2870a1066bcaba3008118ceedd81b2c62e7",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/24890459-3da7-4976-a837-f289e7af0d48.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-005",
+    "name": "Đầm mẫu 05",
+    "category": "Đầm",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-005.jpg",
+    "sha256": "eb0341e26b1e0ad88e3374dc0ecdafe965d32df0ed4c6c3e5169802e579d5fac",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/35f5fecb-755a-45d6-ac3d-3feb8299dc87.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-006",
+    "name": "Đầm mẫu 06",
+    "category": "Đầm",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-006.jpg",
+    "sha256": "82b6cc7f907436c178929285e92ab3acc92627bdb04807ad890f0d27d7e04c08",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/3eeaf330-2460-4d7f-844f-d7254d12e587.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-007",
+    "name": "Đầm mẫu 07",
+    "category": "Đầm",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-007.jpg",
+    "sha256": "e239ad2f4e3abe4c5197e97bbd1db235617bcc07e77708fe572ac934eeefbe0b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/4114a9c0-eea0-442c-af14-8df6c586a016.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-008",
+    "name": "Đầm mẫu 08",
+    "category": "Đầm",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-008.jpg",
+    "sha256": "b399197755bb80e1a09feb19b33425912454337a55f0f8bc5dd26ecbb9aad1cc",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/465ff2a7-d489-45c6-a97e-561ba597da54.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-009",
+    "name": "Đầm mẫu 09",
+    "category": "Đầm",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-009.jpg",
+    "sha256": "61fab1c1242e1b84d30571cacadfe886122c2b295b70f8f7beb41ba7e6ea681f",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/46e4c390-2154-4f6f-8c6f-e7805564d929.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-010",
+    "name": "Đầm mẫu 10",
+    "category": "Đầm",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-010.jpg",
+    "sha256": "b74bbd09a6f160c199e84e30989c481b000d4fe450d633269ae0b077794b2df3",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/4719349a-06d4-4ddf-8428-69c6cef55e46.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-011",
+    "name": "Đầm mẫu 11",
+    "category": "Đầm",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-011.jpg",
+    "sha256": "cf292fb62737963c0a735e513fbd5d745d9bb675a4cd57d2b6e830a610b5fbb1",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/475d03c5-3317-4877-b13d-e2142b33bb70.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-012",
+    "name": "Đầm mẫu 12",
+    "category": "Đầm",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-012.jpg",
+    "sha256": "071eed249acc25e9f823fc05b73b189a2cbd4b5fcf1d986c4350d5986cd3fac9",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/5ab0c815-c152-4726-b540-42876b23c34a.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-013",
+    "name": "Đầm mẫu 13",
+    "category": "Đầm",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-013.jpg",
+    "sha256": "8e64264c91d7ce2efaacd9e6b2da89e015ab2c18b0935e6aa606fc5605b4ced7",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/6ccb3f12-7087-4303-a522-3a76d3db8ce6.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-014",
+    "name": "Đầm mẫu 14",
+    "category": "Đầm",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-014.jpg",
+    "sha256": "a8f2d0326b26759b9dcb9927d19b66331d871f80b2835d4e7e4713f3fb6e57fd",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/7a80fe51-8dfd-4e62-a65a-b192365731fa.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-015",
+    "name": "Đầm mẫu 15",
+    "category": "Đầm",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-015.jpg",
+    "sha256": "d7a4c477a6f825571c512449917e5cf364e19647cb8db2ddd08491b735f92dad",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/835a1782-1eaf-41f3-9d5f-232161f4db53.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-016",
+    "name": "Đầm mẫu 16",
+    "category": "Đầm",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-016.jpg",
+    "sha256": "b6910b2b87cf715b7a71f234c29b2d2d10b2d8776cffe23514cdb1a508d47864",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/881c62dc-a47a-444d-86b7-93a27b431f51.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-017",
+    "name": "Đầm mẫu 17",
+    "category": "Đầm",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-017.jpg",
+    "sha256": "7acad1dcb3723b32695f6d1fb073410b1d3df41134f11295cf2d0e58c5f1c391",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/9044c1d9-92ae-42aa-adee-4aeb468f6d5b.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-018",
+    "name": "Đầm mẫu 18",
+    "category": "Đầm",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-018.jpg",
+    "sha256": "770857da55309bd4500c1716b7fce1478a6a35cf57a94f32d9fc4a021417a7ee",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/92f5cc49-20c0-4b60-a206-9f26e4b736a7.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-019",
+    "name": "Đầm mẫu 19",
+    "category": "Đầm",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-019.jpg",
+    "sha256": "a159ad73daa28f30512c43adf36f70bd5221d34cd91793389e0e24677adda1ad",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/937e2c8f-500e-44fa-b2dc-e5e769e7c5a2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-020",
+    "name": "Đầm mẫu 20",
+    "category": "Đầm",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-020.jpg",
+    "sha256": "2721a7dedcc0c2c3d7d7e2f42bdf04f21ff1a66b7caf04bbae47522ed9e290df",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/dress/974964a0-77cc-47b3-a54f-57eea90bb3fe.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-021",
+    "name": "Mũ mẫu 01",
+    "category": "Mũ",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-021.jpg",
+    "sha256": "5766cadc079c18500f8e45cb303ef7eb61cf2928fdbd99d23415030b509d08ce",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/hat/014b2a1b-c5a0-469b-b115-bc02b2001db5.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-022",
+    "name": "Mũ mẫu 02",
+    "category": "Mũ",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-022.jpg",
+    "sha256": "ac338dc22fb19108527373d6e39e66039bbef002b678ee86aceb419ee8d294b3",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/hat/4f04a31f-6589-4fe2-8a95-a42f6a164bd9.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-023",
+    "name": "Mũ mẫu 03",
+    "category": "Mũ",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-023.jpg",
+    "sha256": "539f97eca9d1383251540878aa23e0e61b026c21be212bce6f3afd2248d99c61",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/hat/50cf0bbc-5a25-4df9-94fe-3323d2b61bff.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-024",
+    "name": "Mũ mẫu 04",
+    "category": "Mũ",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-024.jpg",
+    "sha256": "9e25dd1069adb8542d3ae102057d89260eeaf72e95e0afe0385d976748073b9e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/hat/7b4ca4a5-fd04-4a96-9f40-1a982ff6cb8b.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-025",
+    "name": "Mũ mẫu 05",
+    "category": "Mũ",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-025.jpg",
+    "sha256": "f707dd9fd84f2fe4fe54416a3a8360bc9c19e6cd05f0afc96be70922f5857e54",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/hat/7bfaa9c2-d467-4627-9ff4-233075aa65d4.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-026",
+    "name": "Áo dài tay mẫu 01",
+    "category": "Áo dài tay",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-026.jpg",
+    "sha256": "4bad6a7b0d2c7ff2b17b91c6b8d4683728c5f42a1b599dc20b4054f45fc27bba",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/0354015d-9ed3-4175-9f85-dd5725dce0e1.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-027",
+    "name": "Áo dài tay mẫu 02",
+    "category": "Áo dài tay",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-027.jpg",
+    "sha256": "53d612b55be564abd44068532cd30442bc3c75bd1de31b6f9c605c1f20609274",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/060062e8-b564-4aaa-8d9e-18e735915e37.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-028",
+    "name": "Áo dài tay mẫu 03",
+    "category": "Áo dài tay",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-028.jpg",
+    "sha256": "7eb2ee65ab6bb467347bdb43952cfcf8f235af931beb5e89f20f8b5b0f548786",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/0c6472ac-e3f8-443b-a884-2e60562c35b1.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-029",
+    "name": "Áo dài tay mẫu 04",
+    "category": "Áo dài tay",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-029.jpg",
+    "sha256": "571d35d1cafa5741312d875704ec9ec0ad71f9bb9078ef4b3799bf8ae5077dae",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/0deb9798-5e87-413f-93aa-e19017648a4b.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-030",
+    "name": "Áo dài tay mẫu 05",
+    "category": "Áo dài tay",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-030.jpg",
+    "sha256": "31c5874705b1dbb543a0a262da96f5389e52a04355e8539c73dbb3063d8db128",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/11331826-e5c9-461d-acd2-b078022a9146.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-031",
+    "name": "Áo dài tay mẫu 06",
+    "category": "Áo dài tay",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-031.jpg",
+    "sha256": "04efba4e41f3492a31cac72ca9bf9ebd4fd69d23e5a8d6c151a6d57220a8d9b6",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/20e44d00-fc8c-46d9-9349-c931850ec57a.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-032",
+    "name": "Áo dài tay mẫu 07",
+    "category": "Áo dài tay",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-032.jpg",
+    "sha256": "af5ab99647669473663b08c2f11ed7635de65330af78d8c8291d6e507aeafa50",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/20e5a129-ac26-4ec2-9bf1-f63427503929.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-033",
+    "name": "Áo dài tay mẫu 08",
+    "category": "Áo dài tay",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-033.jpg",
+    "sha256": "8507460e38ec675e2dce14370a9d0031d087527c2af4c8e3c91ed98a7483fcbb",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/2b12ad64-97e5-4500-ad2e-f74ea31eacbb.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-034",
+    "name": "Áo dài tay mẫu 09",
+    "category": "Áo dài tay",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-034.jpg",
+    "sha256": "114f9295510725ef4008d9039411ad0b4660556c2e379548bfdaddfb4a2260ad",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/2b45bc2e-32e9-45db-b34b-aad93113745d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-035",
+    "name": "Áo dài tay mẫu 10",
+    "category": "Áo dài tay",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-035.jpg",
+    "sha256": "580689994358af646a269d96f809e68983f12d8ff9470429d27a3bdf1ac183d5",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/36bde3bf-3a55-4a16-baf9-d34f4f5ae19a.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-036",
+    "name": "Áo dài tay mẫu 11",
+    "category": "Áo dài tay",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-036.jpg",
+    "sha256": "6e0cd1a4d775a19e9db6e44969e30349fe964add0e4b4d1ab0eb865267a344a1",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/3723b671-6846-4d22-af73-fc655eb52093.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-037",
+    "name": "Áo dài tay mẫu 12",
+    "category": "Áo dài tay",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-037.jpg",
+    "sha256": "841592e40c458056e561e35f8a8a2d1e0cf39ff66afcb3f90217ee82b90b6c03",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/4014f464-8bd5-4425-b934-735630cce566.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-038",
+    "name": "Áo dài tay mẫu 13",
+    "category": "Áo dài tay",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-038.jpg",
+    "sha256": "d8c1f00d00b4f461a355337d8c3ed0428427bc76c6bbd83c3aa9a0b6241e7c55",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/42c30a48-5e35-4117-847d-66cad1383955.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-039",
+    "name": "Áo dài tay mẫu 14",
+    "category": "Áo dài tay",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-039.jpg",
+    "sha256": "a5da8a5d930d90d635aef60215888829cfa4c214f10284c56615aef5b456600d",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/44b0c5e7-5174-421b-959c-720483509d5e.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-040",
+    "name": "Áo dài tay mẫu 15",
+    "category": "Áo dài tay",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-040.jpg",
+    "sha256": "5c782f635c9c41173b77488e302cf47c1438e93d6cdeb11956e3d0c5eb7ffb7a",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/461a97c1-1738-46f8-9318-efff65d642a0.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-041",
+    "name": "Áo dài tay mẫu 16",
+    "category": "Áo dài tay",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-041.jpg",
+    "sha256": "018ccfa55fc76d4c65c6851afaa75064cc5ef948c8bce0abafb9b702b3e0d6d5",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/4c816a30-b848-4476-9ae2-a2d8d01e34a8.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-042",
+    "name": "Áo dài tay mẫu 17",
+    "category": "Áo dài tay",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-042.jpg",
+    "sha256": "3e1db3e70d96a51b2bbc472c9ea00265be4cb4e7e4834b454fb411c01bf756a7",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/527fd818-556f-420a-8fbd-8bea64dea5a2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-043",
+    "name": "Áo dài tay mẫu 18",
+    "category": "Áo dài tay",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-043.jpg",
+    "sha256": "73fdec728aa353fea87717eb7e55d9b40afad80e68696275081f5679be7b176a",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/55b4f2d7-56b3-4463-86ea-6cb821a2c68e.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-044",
+    "name": "Áo dài tay mẫu 19",
+    "category": "Áo dài tay",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-044.jpg",
+    "sha256": "0ff3dd698b65a0cb5c530f8900c56a92a1b4d121c8cb400dc04b21cf3d90e476",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/5720381c-a7d8-465a-9395-1f55a5d51b6f.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-045",
+    "name": "Áo dài tay mẫu 20",
+    "category": "Áo dài tay",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-045.jpg",
+    "sha256": "6f10511632a599623f190ba9ba6c0b3f005515430fb7ae9c37ae01b6ff8aa8cb",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/5ab4696e-91fc-4bae-9fc5-39291b1b29a4.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-046",
+    "name": "Áo dài tay mẫu 21",
+    "category": "Áo dài tay",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-046.jpg",
+    "sha256": "ef1cd000f5a7f7c4eb63e179bbe47a0d032062a2d7d49ff24197e883ea749508",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/5e1c56ce-c32c-4056-9278-864773ae2024.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-047",
+    "name": "Áo dài tay mẫu 22",
+    "category": "Áo dài tay",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-047.jpg",
+    "sha256": "7d24c3873c64296f76288f2d41f23a4ad8cb43bea85ad3638c75ff6dd3d6e7c8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/6361debd-1437-4d04-acc2-f9dae8157d5c.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-048",
+    "name": "Áo dài tay mẫu 23",
+    "category": "Áo dài tay",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-048.jpg",
+    "sha256": "7152f1d2f1d4db002833ec95d1477f7d2008a3792521d69e209dfed63ba9850c",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/6826bbf8-4550-4cb8-8b08-ad2a096460b0.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-049",
+    "name": "Áo dài tay mẫu 24",
+    "category": "Áo dài tay",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-049.jpg",
+    "sha256": "fca0e1577111e560570d0bfdeb0988b48b24ed9363b90ab4c34c5838dfba5a9e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/6cd19a44-a38e-4620-98fb-5b7c5f16e5ba.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-050",
+    "name": "Áo dài tay mẫu 25",
+    "category": "Áo dài tay",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-050.jpg",
+    "sha256": "a9919403070dbe3ffc4985f9e88464dcdc60e6ed636e44e8fd45978c199e2046",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/7a20924e-30a3-49e9-8d9f-417c163ea444.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-051",
+    "name": "Áo dài tay mẫu 26",
+    "category": "Áo dài tay",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-051.jpg",
+    "sha256": "3cd1c89cdc0bf63037a15cbd3e2db7b4629c655b2f60dd91671672b66eb38f17",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/7e43962c-1287-4463-b6bd-964fefe51a32.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-052",
+    "name": "Áo dài tay mẫu 27",
+    "category": "Áo dài tay",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-052.jpg",
+    "sha256": "c00497a0bf05c64b3fb6c7ddbcbfbe0b24502aa867e27ba2b11c2c5df99d0e07",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/87846aa9-86cc-404a-af2c-7e8fe941081d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-053",
+    "name": "Áo dài tay mẫu 28",
+    "category": "Áo dài tay",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-053.jpg",
+    "sha256": "1eaf184617d24235757c6b8080250d49ce71f443accc384f4f5b1a459c34fa3a",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/98424108-fcd3-46a4-8a27-fcf4db664f4c.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-054",
+    "name": "Áo dài tay mẫu 29",
+    "category": "Áo dài tay",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-054.jpg",
+    "sha256": "c6b14be721b06d5bb8603dbdd269d016b5e80d9f0541e4c5a6278ef4b81fe2eb",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/9cb4943a-cf4b-467e-b39e-e4694d498fb2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-055",
+    "name": "Áo dài tay mẫu 30",
+    "category": "Áo dài tay",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-055.jpg",
+    "sha256": "8c53651064b4e04479a69c1a56986b00b095463ae08c68b77c4ca7459cf20bd4",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/longsleeve/9fda860e-3de6-4b36-80e7-63e794902370.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-056",
+    "name": "Áo khoác mẫu 01",
+    "category": "Áo khoác",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-056.jpg",
+    "sha256": "7a150eaf0dea0cc0b074311176cff525141e62d373ebf62118de512a3de6243e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/0ad8629f-2e9f-4591-a661-7489d6d49737.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-057",
+    "name": "Áo khoác mẫu 02",
+    "category": "Áo khoác",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-057.jpg",
+    "sha256": "8703b1b9d1ef29dc81ccb4662ed6f5b7bb741c157ad13679c21c3a3a3439eecc",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/0c7412e7-81eb-40b7-be64-ce9782103529.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-058",
+    "name": "Áo khoác mẫu 03",
+    "category": "Áo khoác",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-058.jpg",
+    "sha256": "0a2baab7642a8871abb178898ba9d75f8075a315f1f4af5c50a7f26dc2b9af0d",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/161e35df-93d4-4b30-817e-de03c8c1d55a.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-059",
+    "name": "Áo khoác mẫu 04",
+    "category": "Áo khoác",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-059.jpg",
+    "sha256": "9b1dadb26340110d5a34be989c5a9221b014e62550a2bde43854bf2cfe12eadd",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/2160a577-406a-4812-ada2-2a3cb30c2ba8.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-060",
+    "name": "Áo khoác mẫu 05",
+    "category": "Áo khoác",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-060.jpg",
+    "sha256": "3dee385832fc63594b123bed9acc5b51631fd1a54d40968461e3a5d1335be7cf",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/2c1c3c2a-5b22-4133-9509-1877d6a106a0.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-061",
+    "name": "Áo khoác mẫu 06",
+    "category": "Áo khoác",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-061.jpg",
+    "sha256": "25cf0f50e7a0272192811ff9ce8f03a37c599d1ddce960f03107bf784c41cd1f",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/2ea87992-6eb5-46a2-9ac6-e4ac727179aa.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-062",
+    "name": "Áo khoác mẫu 07",
+    "category": "Áo khoác",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-062.jpg",
+    "sha256": "d8022481c3dd296343138028c33dc90f2c7e148a089c36e02c198f3f40e2b107",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/3108045a-9975-4ad8-b5ed-e0a065e5d397.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-063",
+    "name": "Áo khoác mẫu 08",
+    "category": "Áo khoác",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-063.jpg",
+    "sha256": "1079427c23071c727ba419633d81bb6ce3024f3dcfc662cf531087afeeb2c011",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/311ee106-2f12-4b1d-83fb-b3e597607cca.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-064",
+    "name": "Áo khoác mẫu 09",
+    "category": "Áo khoác",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-064.jpg",
+    "sha256": "4497fff3a4a2942471e0911102f0499f839d2f3b441ba14c4b7a23cc5de2e03c",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/349cf35c-eaad-49af-b0c9-3c88b8d0afc1.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-065",
+    "name": "Áo khoác mẫu 10",
+    "category": "Áo khoác",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-065.jpg",
+    "sha256": "a88e9e55498a9ee82d12230231cd1ef0feb1cb6aa71618b2a03b47a49ede6cbc",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/42518e91-c969-49f5-ac68-dfe394d7451e.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-066",
+    "name": "Áo khoác mẫu 11",
+    "category": "Áo khoác",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-066.jpg",
+    "sha256": "76f89404066b468b7db20b6206bb234099886a94fbc5dd41e37f103be52dd9e9",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/446df066-edee-4c69-90d7-5013bcc72cf2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-067",
+    "name": "Áo khoác mẫu 12",
+    "category": "Áo khoác",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-067.jpg",
+    "sha256": "edeb5deca89cce9e803c501b03d2b1f81cc6c8f14edfa6038c8c12918808a7ef",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/5d365198-b2e9-404a-b160-58248c136ef3.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-068",
+    "name": "Áo khoác mẫu 13",
+    "category": "Áo khoác",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-068.jpg",
+    "sha256": "b5cad04ac9d2bd811aa307646a402e6fe892bcf82c1307050e03a2292f74be34",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/5f983364-29a4-48f5-8f25-1dd4f220b3ed.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-069",
+    "name": "Áo khoác mẫu 14",
+    "category": "Áo khoác",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-069.jpg",
+    "sha256": "77922984606932a95e6985aff99f9321f405bf561820c56bb7faf2c525d03c2b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/6e28fa59-5fe0-418a-ab6a-9b7e1cc9972a.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-070",
+    "name": "Áo khoác mẫu 15",
+    "category": "Áo khoác",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-070.jpg",
+    "sha256": "f44536d704d1860ad64d3be2972fe3f077ce71a702b074793de18b714faf9c5b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/outwear/73580d79-4fce-47f6-a6c3-433b32622774.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-071",
+    "name": "Quần dài mẫu 01",
+    "category": "Quần dài",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-071.jpg",
+    "sha256": "c0dbe8216b990ca060f7ea53e43886af5f450ed155c33e16da2abd325018b65a",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/012d1ca9-baaf-4b01-8b60-955f3408b1b7.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-072",
+    "name": "Quần dài mẫu 02",
+    "category": "Quần dài",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-072.jpg",
+    "sha256": "4c25763f10b8d5e772b83f81913f917184a6dbb3ecc67524ba0d6e49df6eace0",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/0257eb81-f3d3-4704-8299-8b6ab20f1ed4.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-073",
+    "name": "Quần dài mẫu 03",
+    "category": "Quần dài",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-073.jpg",
+    "sha256": "5fe7ec9143b93d6fe8c1d54c405071474d733eaa153d30d764736da492e31e03",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/081b5ec1-13a6-43c8-991f-9ad2020f646a.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-074",
+    "name": "Quần dài mẫu 04",
+    "category": "Quần dài",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-074.jpg",
+    "sha256": "5e7064caf66380908743677b33487b082983e4806bb2fc8daf83e14f1a8c7604",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/0d0bb91d-01d7-45df-827d-da96bbc44b15.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-075",
+    "name": "Quần dài mẫu 05",
+    "category": "Quần dài",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-075.jpg",
+    "sha256": "72219f714188ef76d37850a9b641328bd0bcf09d9dc37b081ce526e0415774e8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/17bebe65-17cc-42b3-885f-4e6c64a16f26.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-076",
+    "name": "Quần dài mẫu 06",
+    "category": "Quần dài",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-076.jpg",
+    "sha256": "02baabf8e2bf004cba44b4497b390c4b296f1b747466b45c7fe8ec4ddc0e8552",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/19ff0603-c52b-4d27-a9b9-cfd9da5e9f35.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-077",
+    "name": "Quần dài mẫu 07",
+    "category": "Quần dài",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-077.jpg",
+    "sha256": "a01090d1280537946e55d703b3717e3ca92ba9d67421ff11c24a905795838266",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/1f3fe0f5-4724-43f8-bfce-6e22d1f1f5ba.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-078",
+    "name": "Quần dài mẫu 08",
+    "category": "Quần dài",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-078.jpg",
+    "sha256": "59a41ea8ae6a4217c4ddafeea55d4d94337dc017b72a0233e973de831c3dd46b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/24eb8ba7-065a-4493-8fa6-b3afa89751f6.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-079",
+    "name": "Quần dài mẫu 09",
+    "category": "Quần dài",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-079.jpg",
+    "sha256": "875c0f9e55c6e0be53c8358a74920051b98502f638f28ce3059041fb9fb0e567",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/2d88dcfb-2418-49fa-82b2-b5d4500ed542.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-080",
+    "name": "Quần dài mẫu 10",
+    "category": "Quần dài",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-080.jpg",
+    "sha256": "d52f2f75d073caac7bed08079805e575c5425ecb25bcd3430d53ff4e675c2a03",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/2f03be8f-7053-4b94-b619-d5166b34ef3f.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-081",
+    "name": "Quần dài mẫu 11",
+    "category": "Quần dài",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-081.jpg",
+    "sha256": "3b00a69398596efd4d25c14356bba5c2dbc2fc14f1b65ab0644408ffcd6b0b86",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/38dbb71c-2e31-4f17-af08-90719ad818d0.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-082",
+    "name": "Quần dài mẫu 12",
+    "category": "Quần dài",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-082.jpg",
+    "sha256": "18f9d6685c647c45e64963bc117d5dce40e7bbe0fa6e3ab4d0239e5f3c8ac07f",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/38e03d31-8068-4d73-82ac-c66334f907a5.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-083",
+    "name": "Quần dài mẫu 13",
+    "category": "Quần dài",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-083.jpg",
+    "sha256": "8be0e750e46213c2911ba7953fd80477db54c2769a7cbdd0c45c63ef23eb378f",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/3c8b71f9-ed39-4916-8fa1-ecc82a3d5986.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-084",
+    "name": "Quần dài mẫu 14",
+    "category": "Quần dài",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-084.jpg",
+    "sha256": "853166ea27c0b9d59cbc1bc77702fd0483f8f8bdc68ee30a221f94381558722d",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/3fa6aae4-c8de-4681-bd3b-1faa60dca0d0.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-085",
+    "name": "Quần dài mẫu 15",
+    "category": "Quần dài",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-085.jpg",
+    "sha256": "c1450fee792b413cc565c09cd9f95fc81270e533644ebf0c0eb8d192ea2e634d",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/47106cae-9eee-4147-bcd1-458f2f00fd3d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-086",
+    "name": "Quần dài mẫu 16",
+    "category": "Quần dài",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-086.jpg",
+    "sha256": "a5e090d592eda924b632ddcf00011b8c98b9dac3300998b6bde3cff69a706966",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/4cc4e673-fecd-4e4e-a7eb-f2efd39a5291.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-087",
+    "name": "Quần dài mẫu 17",
+    "category": "Quần dài",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-087.jpg",
+    "sha256": "2c7d859e1f70b718269d1e8045da0592a6dd7d6826f701d6974638096738d681",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/5081af53-6dd0-454b-be59-e9575b031f98.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-088",
+    "name": "Quần dài mẫu 18",
+    "category": "Quần dài",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-088.jpg",
+    "sha256": "38036ac6db03d94cb4c21ecd7b9bbb45c20e09753a08ff8c313a99c2478b4bc2",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/511cbfa4-cc0c-416f-9e8b-c4e3fb16b9df.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-089",
+    "name": "Quần dài mẫu 19",
+    "category": "Quần dài",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-089.jpg",
+    "sha256": "bf2a1931c5bd608df75a68927b7e8e25ab723a259ecb3b6fcc57d0f2a6b10421",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/522cf1b9-f25b-4e6f-81b4-787bbe1d28ce.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-090",
+    "name": "Quần dài mẫu 20",
+    "category": "Quần dài",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-090.jpg",
+    "sha256": "98b1fe0fa285820f45553b560369f37671a557b6944fa56ca8dcc504e15333fb",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/5795a645-45b8-423a-887a-f8af020fa08d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-091",
+    "name": "Quần dài mẫu 21",
+    "category": "Quần dài",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-091.jpg",
+    "sha256": "b2ae5d66d2c9d928f1b308081959d098bc9beef44dadb8ff929898002b9c72fd",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/599975b1-cf40-4fd7-ba10-da037ec968d8.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-092",
+    "name": "Quần dài mẫu 22",
+    "category": "Quần dài",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-092.jpg",
+    "sha256": "c9cdea56e10c5a72d09dda799aabbd0be724a45a234ce97172f06eeb6f2516b7",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/645d58e5-b817-46de-9f9d-53880eeeba92.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-093",
+    "name": "Quần dài mẫu 23",
+    "category": "Quần dài",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-093.jpg",
+    "sha256": "973c68a5e6a176dfb7fea9ae4329a85e45833253411cd1a78f40f46806ad88eb",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/725f2fc9-230b-4bcb-807b-6a757cefdf37.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-094",
+    "name": "Quần dài mẫu 24",
+    "category": "Quần dài",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-094.jpg",
+    "sha256": "5d7be538b0c3271aebd96b946254926a889685967640ff8151036d25054af451",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/738f5342-3cd6-4565-b6c9-be12d2bf311f.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-095",
+    "name": "Quần dài mẫu 25",
+    "category": "Quần dài",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-095.jpg",
+    "sha256": "7299602ead8f159480f33dbec58f8f6ec22cb2c9d1f81fbc5fc62bbdc291820e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/7e4b6429-1db3-42d2-a114-18020dffded7.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-096",
+    "name": "Quần dài mẫu 26",
+    "category": "Quần dài",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-096.jpg",
+    "sha256": "b89734dcac55a82db4399debc6286134b8be2cbae280878ec7fd8f0f8038e763",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/7eb1dd4c-e663-468d-b8ec-fb2d277ad499.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-097",
+    "name": "Quần dài mẫu 27",
+    "category": "Quần dài",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-097.jpg",
+    "sha256": "78b238d8b60901459aa08d7d27cc39a2f8671677bfa900b4f6f33482007e2e59",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/889779d4-3902-45f7-9187-8001a6cf2cfc.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-098",
+    "name": "Quần dài mẫu 28",
+    "category": "Quần dài",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-098.jpg",
+    "sha256": "066b07f55461f5031fcbb73f512f5f4bfd4a77c70b5ab84998c8298ed535514e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/8e276d05-4a6a-4373-a6d7-6506159ca257.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-099",
+    "name": "Quần dài mẫu 29",
+    "category": "Quần dài",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-099.jpg",
+    "sha256": "07a5997fd5ebcd8c235a42d30766e84eb79017fe97a416d4acc856fbcebb8470",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/8f5774e2-9db8-43bd-8b3c-d8623f385eaa.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-100",
+    "name": "Quần dài mẫu 30",
+    "category": "Quần dài",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-100.jpg",
+    "sha256": "fe0a30c0c8ca10c0989bd5a3968ebdf167dc08c9215729b926563434bc10f684",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/pants/92234206-9018-416d-b558-b96ce85bf4ff.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-101",
+    "name": "Áo sơ mi mẫu 01",
+    "category": "Áo sơ mi",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-101.jpg",
+    "sha256": "4102a025c5d8625f3305feab6a54cebca7ea41dad230c221610323ccf106d817",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/00143901-a14c-4600-960f-7747b4a3a8cd.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-102",
+    "name": "Áo sơ mi mẫu 02",
+    "category": "Áo sơ mi",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-102.jpg",
+    "sha256": "bcd99145ca61b094241dac1fd82c50ec63344fb280d250a3352a227f791cad52",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/0e7453e0-023c-4c34-b837-e6349846b112.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-103",
+    "name": "Áo sơ mi mẫu 03",
+    "category": "Áo sơ mi",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-103.jpg",
+    "sha256": "879b4c9f591a1989ad4632d2a54d1f86953098b4b6f80c882d37c5969a698fd2",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/118fb0e8-2783-4086-b81a-d2a332fbb4f2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-104",
+    "name": "Áo sơ mi mẫu 04",
+    "category": "Áo sơ mi",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-104.jpg",
+    "sha256": "c34b8b22af19703df887741b6a79de1f43d172f99f26a485c96ddea17fc0d3e4",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/1d2e0956-07d7-41d8-9286-ea98d1d32dbd.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-105",
+    "name": "Áo sơ mi mẫu 05",
+    "category": "Áo sơ mi",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-105.jpg",
+    "sha256": "ecb9d13ea812679672ba966a3ef6251169277c87e6ad2ce85e4368d22f2f5060",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/235230d6-8a23-4981-bc43-5e62c0570f44.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-106",
+    "name": "Áo sơ mi mẫu 06",
+    "category": "Áo sơ mi",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-106.jpg",
+    "sha256": "0304bd0edfd6dfd6d98ded524e27740f91ad3c1255e52f5d2fcf09bd94ae8cc2",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/29f8cf36-3ae6-4558-9f42-82f330c15b3d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-107",
+    "name": "Áo sơ mi mẫu 07",
+    "category": "Áo sơ mi",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-107.jpg",
+    "sha256": "b21c0c28bfe1df6d7e217440aa8bb47f1f58290b7635f6652d8fc3f5a8332693",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/309ead9a-2672-40b7-8a09-ab5fc6abccc0.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-108",
+    "name": "Áo sơ mi mẫu 08",
+    "category": "Áo sơ mi",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-108.jpg",
+    "sha256": "f530a65004dc660509a3e804253850ff6ea2b59c25973df19b8161a2f05d4ef5",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/31315e30-2742-4f7f-8168-10a0645d2163.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-109",
+    "name": "Áo sơ mi mẫu 09",
+    "category": "Áo sơ mi",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-109.jpg",
+    "sha256": "2e437afdf4368edcadb03673900b00fcbc2d105b18fd2dd16c09966a13d392bb",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/328e21ed-2843-4469-a49d-4c01470dc98d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-110",
+    "name": "Áo sơ mi mẫu 10",
+    "category": "Áo sơ mi",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-110.jpg",
+    "sha256": "52fa372bff8d1dbd405727a9f36082d1f79e41f7433ad24cf315703883c8db78",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/4db14d3d-05ca-48b1-9257-204b447c27bb.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-111",
+    "name": "Áo sơ mi mẫu 11",
+    "category": "Áo sơ mi",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-111.jpg",
+    "sha256": "81a9e338de9fc46aa07df5480bdab38847c6531fd0ce9b16b77f374409d64250",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/5d97eab8-e62b-49cf-b73e-7cec4951d9c2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-112",
+    "name": "Áo sơ mi mẫu 12",
+    "category": "Áo sơ mi",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-112.jpg",
+    "sha256": "e6ce6eedbcd7a9fdbb6f0f6e696bac7645aeb04639ae3da8a89f70faa04413d3",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/6104b71c-017f-4631-95c9-6ff414091a7d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-113",
+    "name": "Áo sơ mi mẫu 13",
+    "category": "Áo sơ mi",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-113.jpg",
+    "sha256": "5060f97ae7a652fe157cae0f92536757c07019f26f6c667965565fc0b881aa23",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/619655e3-2925-4ff3-94d6-f0e2d3f78b2f.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-114",
+    "name": "Áo sơ mi mẫu 14",
+    "category": "Áo sơ mi",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-114.jpg",
+    "sha256": "e84538389b5d43daddaa88db487b2f46b3edc7191b4e95bb65fe0def4bf87ea8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/66f2df55-c425-40ae-9932-fa929df752d3.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-115",
+    "name": "Áo sơ mi mẫu 15",
+    "category": "Áo sơ mi",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-115.jpg",
+    "sha256": "1d2750864d0cda512d09ac76b7ac5a925274e5d163e6fd228d745a07df4f1a37",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/6791b759-a30d-40bb-84f2-ff32ce939988.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-116",
+    "name": "Áo sơ mi mẫu 16",
+    "category": "Áo sơ mi",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-116.jpg",
+    "sha256": "8d2b4c0bf76206e8da2ee06e39573779c8acd39377294ebb227d88eca9a641a8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/6dd9f374-da25-4bc8-9bbf-39693da3a266.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-117",
+    "name": "Áo sơ mi mẫu 17",
+    "category": "Áo sơ mi",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-117.jpg",
+    "sha256": "141a1f6d3a0a66cfd964d073118c2fa6406e584c768afb48ce5001a9f778adb8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/832898d6-3ac7-472b-835b-4dd3e5843342.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-118",
+    "name": "Áo sơ mi mẫu 18",
+    "category": "Áo sơ mi",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-118.jpg",
+    "sha256": "40a7834e1d47fb286959af5ca470aa99798f287c2937384463f343a6553579cc",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/a85064d6-0f5d-4fce-9e3a-d1b5902c6098.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-119",
+    "name": "Áo sơ mi mẫu 19",
+    "category": "Áo sơ mi",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-119.jpg",
+    "sha256": "5a259799dc17fd2a6042f94acc10f037d3b29da6050de34ffd5acba989f8b4cc",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/a9fe576c-a408-4b3f-80de-d9cb04d36360.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-120",
+    "name": "Áo sơ mi mẫu 20",
+    "category": "Áo sơ mi",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-120.jpg",
+    "sha256": "d787f3552e187e288d911c8780ef7e5d637954888feb6019799647f2e73ef459",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/b09b92a8-4e52-4ac6-946b-6b8fbf83898f.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-121",
+    "name": "Áo sơ mi mẫu 21",
+    "category": "Áo sơ mi",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-121.jpg",
+    "sha256": "69360768cf9e5f5edab4eab18c94bdcec016742b43d0fd53110bf998fa91d380",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/c560e383-7599-4112-b2d3-482c38aa51e3.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-122",
+    "name": "Áo sơ mi mẫu 22",
+    "category": "Áo sơ mi",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-122.jpg",
+    "sha256": "8ef185f04a2bed43f181bd359bfdecf1de3ff15ca7897ee4e2ae2360d73c2540",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/c98e8dd6-3fd0-415c-a124-fe6aa1955b74.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-123",
+    "name": "Áo sơ mi mẫu 23",
+    "category": "Áo sơ mi",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-123.jpg",
+    "sha256": "4741ec5e5e9b3ff85374d3e3208386b102c2da32944c009cbad27f0eb221a0ec",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/cad0e833-619e-4517-91ce-938497622c12.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-124",
+    "name": "Áo sơ mi mẫu 24",
+    "category": "Áo sơ mi",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-124.jpg",
+    "sha256": "84ceb71e9c7599ebc9187de550e569e9bce8e21607a1c92e0a9cddb77335cacf",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/e3f59ab5-daa0-4acf-a114-c6fae6afef56.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-125",
+    "name": "Áo sơ mi mẫu 25",
+    "category": "Áo sơ mi",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-125.jpg",
+    "sha256": "852261ba4cbe8fe7ab93585bf9774c83a94c8c49e322e61bbf22b307e358756b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shirt/e7ec7ab5-494f-417c-a0ce-c7bbef93d745.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-126",
+    "name": "Giày dép mẫu 01",
+    "category": "Giày dép",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-126.jpg",
+    "sha256": "5631f93b92b094d3412722a09b03bb164e43c385fbdcd597653eae49eb21cf46",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/24535295-abe3-4613-91f6-a7fe87954662.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-127",
+    "name": "Giày dép mẫu 02",
+    "category": "Giày dép",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-127.jpg",
+    "sha256": "ae59960e87b2efb3df4e821aa4e1350fa067b269351ab351093baf02b35f3d73",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/253dc2b9-f49e-4f55-9917-c9005c29bbd9.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-128",
+    "name": "Giày dép mẫu 03",
+    "category": "Giày dép",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-128.jpg",
+    "sha256": "83d0e572e478e260589d312b145e2ee441ad477881b1df5c054955a3853eb2c7",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/32662cf1-4440-459c-b55c-0ba39b71f768.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-129",
+    "name": "Giày dép mẫu 04",
+    "category": "Giày dép",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-129.jpg",
+    "sha256": "403645bc73b325ec7053fed1916995a5fb4eaa4214275f2c38e30f962bdd355e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/41302a0b-5faf-48a9-9b40-33885d28a7a6.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-130",
+    "name": "Giày dép mẫu 05",
+    "category": "Giày dép",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-130.jpg",
+    "sha256": "70c75a7af3fdd6b02b845e6ed71ced06d78b646fd9da95d5cfdb4ce91fbacd46",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/454fd50e-89eb-412b-b16c-17f1730ed9b5.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-131",
+    "name": "Giày dép mẫu 06",
+    "category": "Giày dép",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-131.jpg",
+    "sha256": "fdfb3759258f2c846a965ccf1bdf37bf6cd8df96a6b4102f4fef10b2c2f4b776",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/4eba049d-e813-4af9-913a-53b6877cdda2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-132",
+    "name": "Giày dép mẫu 07",
+    "category": "Giày dép",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-132.jpg",
+    "sha256": "10ffbf9f17dfd702587fffd3ba3e7950fbc42a926cf2d5a5f4b72d69440a4ca7",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/5bb088ac-ea91-419b-851e-1b04b7ce57db.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-133",
+    "name": "Giày dép mẫu 08",
+    "category": "Giày dép",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-133.jpg",
+    "sha256": "d53ddbabac3a26d5549365413a857e9860b06d001f56f10ef2e61921a5b895b8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/5e577f40-dd22-4b40-9827-ce6cae5ac3fd.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-134",
+    "name": "Giày dép mẫu 09",
+    "category": "Giày dép",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-134.jpg",
+    "sha256": "96a3f8d06bca7eea52971922e4355b52c309b30a8ea557947c1bf58fa3be2555",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/62309a10-d8ff-4f5c-bfb5-85ed0c2682dc.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-135",
+    "name": "Giày dép mẫu 10",
+    "category": "Giày dép",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-135.jpg",
+    "sha256": "5f1c9f6f3d4edef4e6bbc31fbc658231aed9d22dc10a2662e9eb371a1f4d7e20",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/65368501-a7a8-4552-9035-7e812b9b4828.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-136",
+    "name": "Giày dép mẫu 11",
+    "category": "Giày dép",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-136.jpg",
+    "sha256": "ef8f9583bb0f9ee14e67e45c93d4a9ade781b6fc1e2307c8adb350f47b28cd43",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/6cb6102f-cf2a-4b60-8b44-97e8b8e1e4f2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-137",
+    "name": "Giày dép mẫu 12",
+    "category": "Giày dép",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-137.jpg",
+    "sha256": "6d58692f58f5dba088f11cc8f558e5e74b5bab1460fd325b7a7b74732ef352fe",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/6ce1572f-bf7a-4940-8b4f-611cbac3f8ce.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-138",
+    "name": "Giày dép mẫu 13",
+    "category": "Giày dép",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-138.jpg",
+    "sha256": "97596138733c7f35913ac3f71c49b637b2a0fedec9d8c6a4c8bb9db8c4ab025b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/7bb0226b-f068-4b46-9e40-1e5110319fcd.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-139",
+    "name": "Giày dép mẫu 14",
+    "category": "Giày dép",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-139.jpg",
+    "sha256": "88a8deb5f356ca393a9bd778688140ef5d2eed645465086f157fd00d6b591f09",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/7d5a20ff-6431-404e-9870-78140166cf7a.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-140",
+    "name": "Giày dép mẫu 15",
+    "category": "Giày dép",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-140.jpg",
+    "sha256": "c10607a3168ad0a84d11f2f6da6f3bed5b65118781a2c7270bc9952a4c615be1",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shoes/873dcb7d-34db-488c-b29e-1bbf78102a23.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-141",
+    "name": "Quần short mẫu 01",
+    "category": "Quần short",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-141.jpg",
+    "sha256": "ddd4d60fdfab915cbf71ba23090748cb63de183b475825ead393ea345f654934",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/0c4d3d88-9756-4211-83ad-2d6c68ea0043.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-142",
+    "name": "Quần short mẫu 02",
+    "category": "Quần short",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-142.jpg",
+    "sha256": "ce70966bbf4f49768d337a09b7dc6ed224b994a1ccfa1b0a92edeab11b10f9c8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/0e88c86f-911f-4dd6-85b6-cb953e9dd2c5.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-143",
+    "name": "Quần short mẫu 03",
+    "category": "Quần short",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-143.jpg",
+    "sha256": "7bba26eb26eda4fa242de7bc68bb90ec2fe819def10f7190d6ebcb526c09f321",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/0fc5edba-525c-4234-935f-af55b39530dc.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-144",
+    "name": "Quần short mẫu 04",
+    "category": "Quần short",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-144.jpg",
+    "sha256": "ddec307e07c6ad07469cda95e50c12f8355c4781019572e33a70c86e3ef2a171",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/163d946e-7638-4069-92e0-1b02be330271.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-145",
+    "name": "Quần short mẫu 05",
+    "category": "Quần short",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-145.jpg",
+    "sha256": "a58c3b5b9e0efc6fe45445777021a3ce952d2bfce63cf7e3e565c3d256cbeee2",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/17e1cea3-4010-4f4f-b7a4-77d96594e219.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-146",
+    "name": "Quần short mẫu 06",
+    "category": "Quần short",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-146.jpg",
+    "sha256": "3df745086a7463d14e2c678c04222c55b5d5eeb553e4b83669a67605b1fc971a",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/1dbe9268-758f-4cd4-8f42-58b40ef4bb74.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-147",
+    "name": "Quần short mẫu 07",
+    "category": "Quần short",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-147.jpg",
+    "sha256": "4144b412c2b9bce2347f5bbf95258549befb7443e0e4b1d6c4623f92f3bb9b08",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/273d37f5-1f5f-4ab2-bfbf-1e5a4648500c.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-148",
+    "name": "Quần short mẫu 08",
+    "category": "Quần short",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-148.jpg",
+    "sha256": "232bfa98068204bbba284c8d19fc64d1376e6bd132214a21c46958347b2f8fe8",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/27f3c569-0b20-4791-a39e-54a3c6e16da1.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-149",
+    "name": "Quần short mẫu 09",
+    "category": "Quần short",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-149.jpg",
+    "sha256": "3ed40ffb63cf904d55b77610ab88322f71fafb40b0e26a9719b4852da82876a7",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/2e11ac6b-d3ac-4368-b499-9beea54388a4.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-150",
+    "name": "Quần short mẫu 10",
+    "category": "Quần short",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-150.jpg",
+    "sha256": "672c0ec3346268c5d61d7cbc997d6da2c562e269eb840002b84772e16ef19c7a",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/3e203f7a-5b90-4b27-9303-a5634a80f015.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-151",
+    "name": "Quần short mẫu 11",
+    "category": "Quần short",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-151.jpg",
+    "sha256": "764cf64be6a01812b622bba9f9f1fd43d1331280f1df334e9ec3fb431fb48906",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/456578a1-8a2e-4906-85a4-c93ceef8c108.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-152",
+    "name": "Quần short mẫu 12",
+    "category": "Quần short",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-152.jpg",
+    "sha256": "1bc6e21765569f95a535ad1a523087c646c91a84f7117213e3721356eee0db62",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/6505e289-1236-4675-8430-ebcc52fe4ca6.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-153",
+    "name": "Quần short mẫu 13",
+    "category": "Quần short",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-153.jpg",
+    "sha256": "d274d50d23403e42d3b90d2220bbe1b145ec4d7e92f47b4b3b0009869dc0463f",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/671603f9-b503-4d14-a389-3c46ff8bf163.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-154",
+    "name": "Quần short mẫu 14",
+    "category": "Quần short",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-154.jpg",
+    "sha256": "f5e5cd8e9568420c987abc669bcdf758c900324f3a920dd34783383263045418",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/6b825ceb-4d84-4fa2-8953-af936b3233ac.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-155",
+    "name": "Quần short mẫu 15",
+    "category": "Quần short",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-155.jpg",
+    "sha256": "db2b9b7a4ccdad86bf899c46ab9409af3b2d82fa0b7b1bff3d1c37c4fed4c4c5",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/73074cee-871e-4b79-8b25-197bb404e7d3.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-156",
+    "name": "Quần short mẫu 16",
+    "category": "Quần short",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-156.jpg",
+    "sha256": "eb210defbf47425a953095a662c6fcdf271c87b3550ed609a8a4713308ea3f47",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/73d0010c-e5f1-49aa-bc8d-222002cdb5b6.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-157",
+    "name": "Quần short mẫu 17",
+    "category": "Quần short",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-157.jpg",
+    "sha256": "82c9febb42621de07c15f612474cda64a9d1685ef40d78d7bd0001a913091419",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/8a763700-8a1a-4396-947d-d1264e2005ee.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-158",
+    "name": "Quần short mẫu 18",
+    "category": "Quần short",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-158.jpg",
+    "sha256": "85a3b4ce95157a1e564e7d9ccabc85d31a18ff34c09f3f1fe1135248c2039823",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/9de18803-34d3-4737-b958-075a1ffadbc1.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-159",
+    "name": "Quần short mẫu 19",
+    "category": "Quần short",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-159.jpg",
+    "sha256": "712708b571cda6b7a7cbfd66e7dac760b8772a2d2c1277506a425e9584335bc6",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/a5fa97cf-e45e-4a14-a001-93276576a58d.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-160",
+    "name": "Quần short mẫu 20",
+    "category": "Quần short",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-160.jpg",
+    "sha256": "9b3af0cee27d24c7b22b4f89263722489da584e1b75d9d87c918c57900b00610",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/shorts/c6689216-f1cf-4b72-9711-c9c81ee31618.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-161",
+    "name": "Chân váy mẫu 01",
+    "category": "Chân váy",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-161.jpg",
+    "sha256": "1bce18016f626704fd45b052e0271871b34f5e4e71434e9ed2be7fe00368d1ea",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/2459a9ab-b654-4aef-be7c-89340da78cec.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-162",
+    "name": "Chân váy mẫu 02",
+    "category": "Chân váy",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-162.jpg",
+    "sha256": "05b7868e4ddab8114e9c936c7ceece4a9134aa489cb1c8346093e6f2f1f07cb6",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/2ac96388-4353-44b6-a174-de2f2523afd1.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-163",
+    "name": "Chân váy mẫu 03",
+    "category": "Chân váy",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-163.jpg",
+    "sha256": "d24f9e1f24ea76baf7659df860a1f176fcf4ad02963ba88d55667eab9835ce39",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/36d30ee9-1a06-49a5-94ca-1e58f13e7dc2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-164",
+    "name": "Chân váy mẫu 04",
+    "category": "Chân váy",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-164.jpg",
+    "sha256": "ca7333f60cafff7b27ecf34cfa4dc7ad002754f611ace70069ef6d92fb7d7871",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/3878a7f2-61f1-4594-91f1-7e05e6227272.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-165",
+    "name": "Chân váy mẫu 05",
+    "category": "Chân váy",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-165.jpg",
+    "sha256": "09ee1b10b19d7dd1ba597ef3ca65b4b251acad146845dfe8ac9da260a8067d4d",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/4c2b720f-6916-4edf-a732-847c55eec881.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-166",
+    "name": "Chân váy mẫu 06",
+    "category": "Chân váy",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-166.jpg",
+    "sha256": "3003c38069002927547f50399998c9248ad35c466141c9e0f8f57deb88aff41b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/4d5d201a-11cb-4e5c-b291-9b8c833c4ddf.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-167",
+    "name": "Chân váy mẫu 07",
+    "category": "Chân váy",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-167.jpg",
+    "sha256": "f17a9871366f0a5e07e84700467fc3a7a2004f72627047bb281eaf7f0728b964",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/7f160564-1b10-4cf0-bb61-5d9af037e898.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-168",
+    "name": "Chân váy mẫu 08",
+    "category": "Chân váy",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-168.jpg",
+    "sha256": "e1c8a5d8943a1e16923233da9f1a22c269ad9365a0191590ed2b8aba8df26a33",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/92e0e80a-d72a-4bed-9ee3-84343618f0bf.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-169",
+    "name": "Chân váy mẫu 09",
+    "category": "Chân váy",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-169.jpg",
+    "sha256": "4637560ee63c30904f06234e9127cf07b82648fc62c7ef751cce6212e4e1b55c",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/ad82f227-e35f-4268-a6e3-ef417bf96656.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-170",
+    "name": "Chân váy mẫu 10",
+    "category": "Chân váy",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-170.jpg",
+    "sha256": "9d83bbc7146f31246714150fc6e558004fa057f9e3ea47242909d82592642056",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/skirt/adefd137-8fd0-415b-8139-f406e5f46182.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-171",
+    "name": "Áo thun mẫu 01",
+    "category": "Áo thun",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-171.jpg",
+    "sha256": "8ea78a35291c4cf227e33542567bc382b643cfd520bddd719b503f1a3da3d58f",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/0090ca2c-e8c8-43f6-b764-e48e0e954006.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-172",
+    "name": "Áo thun mẫu 02",
+    "category": "Áo thun",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-172.jpg",
+    "sha256": "b70b597192e172e94ae24a2de4539b2a700956842c9a5efc935f477743473605",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/06de9ebd-be39-4cc6-aea7-1d047ccf1a52.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-173",
+    "name": "Áo thun mẫu 03",
+    "category": "Áo thun",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-173.jpg",
+    "sha256": "f95ff66fb3264f42ace9ef444a7b6558c7c84cb885c1670c8c70ca54d3d78f9f",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/07b294ee-9a04-4795-9af2-7a1c801e8db0.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-174",
+    "name": "Áo thun mẫu 04",
+    "category": "Áo thun",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-174.jpg",
+    "sha256": "e22884ac7c20bd2d16edc08766722ae58ba71a8a67376d37680ba299c99680d4",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/099de1d5-7422-4230-b11b-fe581139b82c.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-175",
+    "name": "Áo thun mẫu 05",
+    "category": "Áo thun",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-175.jpg",
+    "sha256": "4f403773df08e10810801dd70054652850655c28966633a46ae6dd3b539d02c0",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/09cd8fdf-bbe9-4908-8f54-f399bc635c9b.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-176",
+    "name": "Áo thun mẫu 06",
+    "category": "Áo thun",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-176.jpg",
+    "sha256": "1f1fc3e09df9fa807f1ba6af2350961fa7cdb74eefe3ea9197eb0029843891bc",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/0acef3a8-51f3-42ce-8842-10e4898c0a0f.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-177",
+    "name": "Áo thun mẫu 07",
+    "category": "Áo thun",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-177.jpg",
+    "sha256": "1793ac2ad73daeca3817ce457b38561f2ec516f851037e6275b97bbe912910d1",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/0e240297-2265-411e-b386-cb59a44f98ae.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-178",
+    "name": "Áo thun mẫu 08",
+    "category": "Áo thun",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-178.jpg",
+    "sha256": "82f283ede1acc4fe28bc77ba911c998432185097031e8d8b3bc9d8e7d486f880",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/12a48c81-d35b-45f8-93fd-5d69153163e2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-179",
+    "name": "Áo thun mẫu 09",
+    "category": "Áo thun",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-179.jpg",
+    "sha256": "128981d6180333a1f65b3d44bb72f2ce86f3dc922a0035d8d0afeb4de9c979ae",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/12fdd808-d883-4428-9df0-c16e91cca103.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-180",
+    "name": "Áo thun mẫu 10",
+    "category": "Áo thun",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-180.jpg",
+    "sha256": "0e15a349ad536e5fae6756d157f0499fa103ace852cd6c76f9678f113ba9df60",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/138183f7-178c-4d31-9069-60226d43fab4.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-181",
+    "name": "Áo thun mẫu 11",
+    "category": "Áo thun",
+    "price": 160000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-181.jpg",
+    "sha256": "ab48871c10edb719d60e52f396aec273ee349e9018ff6bb80f01352506cc62df",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/164900f8-4d29-454b-97ba-5d7d22f5cfe2.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-182",
+    "name": "Áo thun mẫu 12",
+    "category": "Áo thun",
+    "price": 170000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-182.jpg",
+    "sha256": "307e7a1663e4d1c15b69b7092e47d8bc6bb833991614d948ecdc47a141713616",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/16f1fbdf-d339-40f6-aecb-e55199db7a96.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-183",
+    "name": "Áo thun mẫu 13",
+    "category": "Áo thun",
+    "price": 180000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-183.jpg",
+    "sha256": "159939cf1aebf0a6a5521d465ff4ab3936b8ca3089a829f3508cc0719dde4076",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/1a5d03c8-1a59-409d-bb5e-5958dc7620b8.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-184",
+    "name": "Áo thun mẫu 14",
+    "category": "Áo thun",
+    "price": 190000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-184.jpg",
+    "sha256": "536500f41beb00e59feff25a012383285594b08a6ca758293e52907e1e1ed7d1",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/1ab00c0e-4fc7-45d4-b9af-7d1bd75e1fd9.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-185",
+    "name": "Áo thun mẫu 15",
+    "category": "Áo thun",
+    "price": 200000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-185.jpg",
+    "sha256": "500d297de5aefb11ac135aebbea0693761a134afdbce89109e1bb47479094733",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/2324306f-d9a3-47b7-b648-8684b8aca35c.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-186",
+    "name": "Áo thun mẫu 16",
+    "category": "Áo thun",
+    "price": 210000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-186.jpg",
+    "sha256": "00b3f11ff8a38c1b7667da27c1d018df32569e6370d75b0c3c6ef73fc50a543b",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/24ccd098-8f30-4b75-a1aa-06a8c42d9835.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-187",
+    "name": "Áo thun mẫu 17",
+    "category": "Áo thun",
+    "price": 220000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-187.jpg",
+    "sha256": "cdd86d74e4c0628f5a41eccc4f5c682ab8a51ba2beb73b7cbf21b2bd07386ebe",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/275874a1-4cfd-4852-a751-24cf7f666517.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-188",
+    "name": "Áo thun mẫu 18",
+    "category": "Áo thun",
+    "price": 230000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-188.jpg",
+    "sha256": "bce1dd3af45a1c3b27546b6420378d7fc8d713663b4b10a772c0885fd8ddbe18",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/27983c13-54bf-463d-84a6-94ec799b70ab.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-189",
+    "name": "Áo thun mẫu 19",
+    "category": "Áo thun",
+    "price": 240000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-189.jpg",
+    "sha256": "baf18bee1fbc63cb2334e37d63cc158188f08d8938573d01b48a8bcec64b22be",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/27e1dfc7-4a9a-4049-ad9c-253535a92b94.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-190",
+    "name": "Áo thun mẫu 20",
+    "category": "Áo thun",
+    "price": 250000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-190.jpg",
+    "sha256": "28b7aaa68e202dd76969c1ab8843dc21db18e8098ed3c5047d354f653d45f696",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/28709ef4-cebf-40c5-8347-f59932bf9323.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-191",
+    "name": "Áo thun mẫu 21",
+    "category": "Áo thun",
+    "price": 260000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-191.jpg",
+    "sha256": "bc364628a75efdf3fb2eea0da555ac9cf8fef68032bce08ba9eba3fc3aff2109",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/2952baa3-1c19-4629-aac5-48f9c123f4b1.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-192",
+    "name": "Áo thun mẫu 22",
+    "category": "Áo thun",
+    "price": 270000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-192.jpg",
+    "sha256": "00c6beaa2dc756247fe2ac4119f16a72a99e45975da48ef0ad562456264be905",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/2a15cfb2-881f-47f2-a631-decf0a5ec2af.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-193",
+    "name": "Áo thun mẫu 23",
+    "category": "Áo thun",
+    "price": 280000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-193.jpg",
+    "sha256": "5cb81a380c0b8c8193e004454383a367d9aa3f8d776fd9a4bc5d50e6910fd6ae",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/2ae08b28-adf9-4fc8-b150-513cad510b1e.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-194",
+    "name": "Áo thun mẫu 24",
+    "category": "Áo thun",
+    "price": 290000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-194.jpg",
+    "sha256": "c5d470f7cb98f5a677c3fd05abf85fa75047ee8a566505509cbc5dad87dd0596",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/2b84e88f-fa18-4af8-b6ef-e51abb38d760.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-195",
+    "name": "Áo thun mẫu 25",
+    "category": "Áo thun",
+    "price": 300000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-195.jpg",
+    "sha256": "cd5477c985054763c1c96d4d2a4c5f7113218589c43917722b6f392a29110127",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/2b8f8ba1-9264-4eeb-bdf5-0a141490db17.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-196",
+    "name": "Áo thun mẫu 26",
+    "category": "Áo thun",
+    "price": 310000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-196.jpg",
+    "sha256": "2942b274e03dc3afb84a2a208d3724763ac2e93293a344d12f0f91c68fa6b795",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/2ce576f8-cb93-43ee-933b-22d1c6d1678f.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-197",
+    "name": "Áo thun mẫu 27",
+    "category": "Áo thun",
+    "price": 320000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-197.jpg",
+    "sha256": "c2e4fd0b560f837b10f5ae588f5ca0f584b8b994013f9a97ef7a4c394a4ebb5c",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/3861b881-90d1-446d-ad1a-8b93e96dc935.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-198",
+    "name": "Áo thun mẫu 28",
+    "category": "Áo thun",
+    "price": 330000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-198.jpg",
+    "sha256": "2b9f26a17d68ce36003df5295f768ddcd721ad2b931f909d0e7a6daf9678f8c6",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/3972b4a1-41b6-4333-8f65-e6a776e94e18.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-199",
+    "name": "Áo thun mẫu 29",
+    "category": "Áo thun",
+    "price": 340000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-199.jpg",
+    "sha256": "83c11c303e4fa1bed6d89fff40fe87c8208a1c5ca5ab2b02bf7d9ab3bdc74b95",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/3e33ad0d-e342-429c-89bd-fb1ece1a4065.jpg",
+    "license": "CC0-1.0"
+  },
+  {
+    "code": "CC0-200",
+    "name": "Áo thun mẫu 30",
+    "category": "Áo thun",
+    "price": 150000,
+    "imageUrl": "https://genzfashion-khanh.duckdns.org/catalog-200/gz-200.jpg",
+    "sha256": "84f441b38ffb39d084221afc54d72be326f86d9cf0def1a77e514fa9b64b178e",
+    "source": "https://github.com/lightly-ai/dataset_clothing_images/blob/98538e0209d599f66ed62f3f3a32b9085cd59d68/t-shirt/47533149-1373-4576-9d70-8b4bf33a687c.jpg",
+    "license": "CC0-1.0"
+  }
+]
