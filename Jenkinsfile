@@ -4,8 +4,8 @@ pipeline {
     parameters {
         booleanParam(name: 'DEPLOY_EC2_PREVIEW', defaultValue: false,
             description: 'Deploy preview to EC2 after CI passes; requires a working database configured on EC2.')
-        string(name: 'EC2_HOST', defaultValue: '16.178.41.15',
-            description: 'Current EC2 public IPv4; verify its host key on the agent first.')
+        string(name: 'EC2_HOST', defaultValue: 'genzfashion-khanh.duckdns.org',
+            description: 'EC2 DuckDNS hostname (recommended) or current public IPv4; verify its host key on the agent first.')
     }
 
     options {

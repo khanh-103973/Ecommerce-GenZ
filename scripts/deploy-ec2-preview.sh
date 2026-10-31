@@ -5,9 +5,9 @@ set -euo pipefail
 
 : "${EC2_KEY:?Jenkins SSH credential required}"
 : "${EC2_USER:?Jenkins SSH username required}"
-: "${EC2_HOST:?EC2 IPv4 required}"
-[[ "$EC2_HOST" =~ ^[0-9]{1,3}(\.[0-9]{1,3}){3}$ ]] || {
-    echo 'ERROR: EC2_HOST must be a public IPv4 address.' >&2
+: "${EC2_HOST:?EC2 host required}"
+[[ "$EC2_HOST" == genzfashion-khanh.duckdns.org || "$EC2_HOST" =~ ^[0-9]{1,3}(\.[0-9]{1,3}){3}$ ]] || {
+    echo 'ERROR: EC2_HOST must be genzfashion-khanh.duckdns.org or a public IPv4 address.' >&2
     exit 1
 }
 [[ "$EC2_USER" == ubuntu ]] || { echo 'ERROR: Expected EC2 user ubuntu.' >&2; exit 1; }

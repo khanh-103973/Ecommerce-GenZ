@@ -2,8 +2,11 @@
 
 Chỉ triển khai khi chọn `DEPLOY_EC2_PREVIEW` trong Build with Parameters.
 Mặc định false: Poll SCM vẫn chạy CI, không tự triển khai khi đẩy commit.
-`EC2_HOST` là IPv4 hiện tại; sau Stop/Start phải kiểm tra lại IP và xác minh
-fingerprint trước khi cập nhật known_hosts của user jenkins-agent.
+`EC2_HOST` mặc định là `genzfashion-khanh.duckdns.org`. Sau Stop/Start,
+chờ DuckDNS cập nhật IP rồi deploy bằng tên miền này. Vẫn hỗ trợ IPv4 thủ công.
+Lần đầu dùng tên miền, cần thêm khóa của tên miền vào known_hosts của user
+jenkins-agent sau khi đối chiếu fingerprint với khóa EC2 đã xác nhận.
+Không tắt StrictHostKeyChecking. Khi thay instance/khóa SSH phải xác minh lại.
 
 Credential `genzfashion-ec2-ssh` dùng username ubuntu, private key trong Jenkins.
 SSH bật StrictHostKeyChecking, không tự tin cậy key lấy từ mạng.
