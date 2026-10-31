@@ -25,9 +25,9 @@ preview thủ công ở 18081. Trên t3.micro, hai bản chạy song song chỉ 
 chuyển tiếp; sau khi bản deploy được xác nhận cần dừng preview thủ công để
 tiết kiệm RAM. Compose chưa cấu hình tự restart sau reboot.
 
-Kiểm tra sau deploy: live 200 Healthy, shop 200, auth/me 401, ready 503.
-Đây là preview với SQL giả; 503 không phải trạng thái đạt của production.
-Khi có SQL thật cần đổi kiểm tra sang ready 200 và bổ sung migration, kiểm tra
+Kiểm tra sau deploy: live 200 Healthy, shop 200, auth/me 401, ready 200 Healthy.
+EC2 dùng database GearHost genzfashion2026 trên den1.mssql7.gear.host. Readiness được thử tối đa 6 lần, mỗi lần tối đa 35 giây. CI smoke test cô lập vẫn dùng SQL giả và yêu cầu 503.
+Đã áp dụng 4 migration và kiểm tra thủ công catalog, đăng nhập, COD/hủy và hoàn tồn ngày 31/10/2026. Cần hoàn thiện kiểm tra
 nghiệp vụ, HTTPS/proxy trước khi công khai. Chưa có tự rollback: nếu up hoặc
 kiểm tra thất bại, build báo lỗi, service có thể đã thay đổi. Tag deploy đạt
 được ghi ở deployed-preview-tag; giữ các image cũ để phục vụ xử lý thủ công.
@@ -35,7 +35,7 @@ kiểm tra thất bại, build báo lỗi, service có thể đã thay đổi. T
 Windows xem bản này bằng tunnel (thay IP nếu đổi):
 
 ```powershell
-ssh -i "D:\Download\EC2-Student-Key.pem" -N -L 18084:127.0.0.1:18083 ubuntu@16.178.41.15
+ssh -i "D:\Download\EC2-Student-Key.pem" -N -L 18084:127.0.0.1:18083 ubuntu@16.178.147.10
 ```
 
 Mở http://127.0.0.1:18084/shop.

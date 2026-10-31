@@ -27,9 +27,17 @@ for attempt in {1..30}; do
     sleep 2
 done
 [[ "$live_ok" == true ]] || { echo 'ERROR: EC2 liveness check failed.' >&2; exit 1; }
-[[ "$(curl -sS -o /dev/null -w '%{http_code}' --max-time 15 http://127.0.0.1:18083/api/health/ready)" == 503 ]]
+ready_ok=false
+for attempt in {1..6}; do
+    if [[ "$(curl -fsS --max-time 35 http://127.0.0.1:18083/api/health/ready 2>/dev/null || true)" == Healthy ]]; then
+        ready_ok=true
+        break
+    fi
+    sleep 2
+done
+[[ "$ready_ok" == true ]] || { echo 'ERROR: EC2 database readiness failed; expected HTTP success and Healthy. Check database configuration on EC2.' >&2; exit 1; }
 [[ "$(curl -sS -o /dev/null -w '%{http_code}' --max-time 10 http://127.0.0.1:18083/shop)" == 200 ]]
 [[ "$(curl -sS -o /dev/null -w '%{http_code}' --max-time 10 http://127.0.0.1:18083/api/auth/me)" == 401 ]]
 printf '%s\n' "$tag" > /home/ubuntu/genzfashion-deploy/deployed-preview-tag
 rm -- images.tar
-echo "PASS: EC2 preview deployed ($tag), loopback port 18083; SQL intentionally unavailable (readiness 503)."
+echo "PASS: EC2 preview deployed ($tag), loopback port 18083; database readiness Healthy."
