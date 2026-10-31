@@ -23,7 +23,7 @@ Không chạy migration, prune toàn host hoặc thay đổi Jenkins/Flask.
 Project `genzfashion-ec2-deploy` dùng cổng loopback 18083 để không thay thế
 preview thủ công ở 18081. Trên t3.micro, hai bản chạy song song chỉ phục vụ
 chuyển tiếp; sau khi bản deploy được xác nhận cần dừng preview thủ công để
-tiết kiệm RAM. Compose chưa cấu hình tự restart sau reboot.
+tiết kiệm RAM. Compose dùng restart: unless-stopped cho API/Web để tự chạy lại khi Docker/EC2 khởi động. Docker service cần được enable; container bị docker stop thủ công cần được start lại.
 
 Kiểm tra sau deploy: live 200 Healthy, shop 200, auth/me 401, ready 200 Healthy.
 EC2 dùng database GearHost genzfashion2026 trên den1.mssql7.gear.host. Readiness được thử tối đa 6 lần, mỗi lần tối đa 35 giây. CI smoke test cô lập vẫn dùng SQL giả và yêu cầu 503.

@@ -4,6 +4,7 @@ services:
   api:
     image: genzfashion-api:${GENZFASHION_IMAGE_TAG:?Set the image tag built by Jenkins}
     pull_policy: never
+    restart: unless-stopped
     environment:
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_HTTP_PORTS: "8080"
@@ -18,6 +19,7 @@ services:
   web:
     image: genzfashion-web:${GENZFASHION_IMAGE_TAG:?Set the image tag built by Jenkins}
     pull_policy: never
+    restart: unless-stopped
     depends_on:
       - api
     ports:
