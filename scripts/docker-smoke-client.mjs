@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 
 async function request(url) {
   return fetch(url, { redirect: 'manual', signal: AbortSignal.timeout(10000) });
@@ -43,6 +44,25 @@ await asset.text();
 const missing = await request('http://web:8080/assets/not-a-real-file.js');
 assert.equal(missing.status, 404);
 await missing.text();
+
+// Verify the deployed image contains every original photo, not an SPA fallback.
+const catalogResponse = await request('http://web:8080/catalog-200/catalog.json');
+assert.equal(catalogResponse.status, 200);
+const catalog = await catalogResponse.json();
+assert.equal(catalog.length, 200);
+assert.equal(new Set(catalog.map((p) => p.code)).size, 200);
+assert.equal(new Set(catalog.map((p) => p.sha256)).size, 200);
+for (const product of catalog) {
+  const path = new URL(product.imageUrl).pathname;
+  assert.match(path, /^\/catalog-200\/gz-\d{3}\.jpg$/);
+  const photo = await request(`http://web:8080${path}`);
+  assert.equal(photo.status, 200, `Missing photo: ${path}`);
+  assert.match(photo.headers.get('content-type') || '', /^image\/jpeg/);
+  const bytes = Buffer.from(await photo.arrayBuffer());
+  assert.equal(createHash('sha256').update(bytes).digest('hex'), product.sha256,
+    `Photo content mismatch: ${path}`);
+}
+console.log('PASS: all 200 catalog photos served as JPEG with matching unique SHA-256.');
 
 const me = await request('http://web:8080/api/auth/me');
 assert.equal(me.status, 401);
